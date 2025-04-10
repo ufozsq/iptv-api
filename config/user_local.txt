@@ -85,7 +85,7 @@ HOY 77,http://php.jdshipin.com/TVOD/iptv.php?id=hoytv
 凤凰卫视,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
 凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
 凤凰香港,http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
-CHC家庭影院,http://php.jdshipin.com/TVOD/iptv.php?id=chcjtyy
+家庭影院,http://php.jdshipin.com/TVOD/iptv.php?id=chcjtyy
 重温经典,http://php.jdshipin.com/TVOD/iptv.php?id=cwjd
 无线新闻,http://php.jdshipin.com/TVOD/iptv.php?id=tvbxw
 无线新闻.备用,http://php.jdshipin.com/TVOD/iptv.php?id=wxxwt
@@ -549,8 +549,8 @@ CGTN俄语,http://z.b.bkpcp.top/m.php?id=cgtnr
 山东教育,http://z.b.bkpcp.top/m.php?id=sdjy
 游戏风云,http://z.b.bkpcp.top/m.php?id=yxfy
 欢笑剧场,http://z.b.bkpcp.top/m.php?id=hxjc
-CHC动作电影,http://z.b.bkpcp.top/m.php?id=dzdy
-CHC家庭影院,http://z.b.bkpcp.top/m.php?id=jtyy
+动作电影,http://z.b.bkpcp.top/m.php?id=dzdy
+家庭影院,http://z.b.bkpcp.top/m.php?id=jtyy
 CCTV-1,http://tvbox6.icu/tv/migu.php?id=cctv1$咪咕直播
 CCTV-2,http://tvbox6.icu/tv/migu.php?id=cctv2$咪咕直播
 CCTV-3,http://tvbox6.icu/tv/migu.php?id=cctv3$咪咕直播
@@ -605,8 +605,8 @@ CCTV俄语,http://tvbox6.icu/tv/migu.php?id=cgtnr
 西藏卫视,http://tvbox6.icu/tv/migu.php?id=xzws
 海南卫视,http://tvbox6.icu/tv/migu.php?id=hinws
 四海钓鱼,http://tvbox6.icu/tv/migu.php?id=shdy
-CHC动作电影,http://tvbox6.icu/tv/migu.php?id=chcdzdy
-CHC家庭影院,http://tvbox6.icu/tv/migu.php?id=chcjtdy
+动作电影,http://tvbox6.icu/tv/migu.php?id=chcdzdy
+家庭影院,http://tvbox6.icu/tv/migu.php?id=chcjtdy
 东方影视,http://tvbox6.icu/tv/migu.php?id=dfys
 上海新闻综合,http://tvbox6.icu/tv/migu.php?id=shxwzh
 上海第一财经,http://tvbox6.icu/tv/migu.php?id=dycj
@@ -710,8 +710,8 @@ Star Sports,http://211.67.191.23/hls/starsports/index.m3u8
 甘肃卫视,http://211.67.191.23/hls/gstv/index.m3u8
 兵团卫视,http://211.67.191.23/hls/bttv/index.m3u8
 延边卫视,http://211.67.191.23/hls/ybtv/index.m3u8
-CHC家庭影院,http://211.67.191.23/hls/chctv/index.m3u8
-CHC动作电影,http://211.67.191.23/hls/chcatv/index.m3u8
+家庭影院,http://211.67.191.23/hls/chctv/index.m3u8
+动作电影,http://211.67.191.23/hls/chcatv/index.m3u8
 金鹰卡通,http://211.67.191.23/hls/jykttv/index.m3u8
 中国教育电视台1,http://211.67.191.23/hls/cetv1/index.m3u8
 中国教育电视台3,http://211.67.191.23/hls/cetv3/index.m3u8
@@ -1571,9 +1571,9 @@ CCTV-15,http://110.53.52.63:8888/newlive/live/hls/17/live.m3u8
 GNTV,http://110.53.52.63:8888/newlive/live/hls/48/live.m3u8
 湖南卫视,http://110.53.52.63:8888/newlive/live/hls/50/live.m3u8
 金鹰卡通,http://110.53.52.63:8888/newlive/live/hls/49/live.m3u8
-CHC影迷电影,http://110.53.52.63:8888/newlive/live/hls/52/live.m3u8
-CHC动作电影,http://110.53.52.63:8888/newlive/live/hls/53/live.m3u8
-CHC家庭影院,http://110.53.52.63:8888/newlive/live/hls/51/live.m3u8
+影迷电影,http://110.53.52.63:8888/newlive/live/hls/52/live.m3u8
+动作电影,http://110.53.52.63:8888/newlive/live/hls/53/live.m3u8
+家庭影院,http://110.53.52.63:8888/newlive/live/hls/51/live.m3u8
 CCTV-1,http://111.160.17.2:59901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV-2,http://111.160.17.2:59901/tsfile/live/0001_2.m3u8?key=txiptv&playlive=1&authid=0
 CCTV-3,http://111.160.17.2:59901/tsfile/live/0001_3.m3u8?key=txiptv&playlive=1&authid=0
@@ -2236,9 +2236,9 @@ CCTV-14,http://[2409:8087:7008:20::8]:80/dbiptv.sn.chinamobile.com/PLTV/88888888
 CCTV-15,http://[2409:8087:7008:20::2]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225785/index.m3u8
 CCTV-16,http://[2409:8087:7008:20::8]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226921/index.m3u8
 CCTV-17,http://[2409:8087:7008:20::8]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226198/index.m3u8
-CHC动作电影,http://[2409:8087:7008:20::2]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8
-CHC家庭影院,http://[2409:8087:7008:20::8]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226462/index.m3u8
-CHC影迷电影,http://[2409:8087:7008:20::8]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226463/index.m3u8
+动作电影,http://[2409:8087:7008:20::2]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8
+家庭影院,http://[2409:8087:7008:20::8]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226462/index.m3u8
+影迷电影,http://[2409:8087:7008:20::8]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226463/index.m3u8
 CCTV-2,http://[2409:8087:7008:20::8]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226195/1.m3u8
 CCTV-4,http://[2409:8087:7008:20::8]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226191/1.m3u8
 CCTV-5,http://[2409:8087:7008:20::8]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226395/1.m3u8
