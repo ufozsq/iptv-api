@@ -3,7 +3,7 @@ name: 'Update schedule'
 on:
   schedule:
     - cron: '0 22 */3 * *'
-    - cron: '0 10 */3 * *'
+    - cron: '0 10 */2 * *'
   workflow_dispatch:
     分支:
       - master
