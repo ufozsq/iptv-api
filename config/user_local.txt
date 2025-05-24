@@ -3,7 +3,6 @@
 # The local source list, one line per source, format: channel name, interface address
 # Support setting whitelist: add $! after the interface
 
-
 CCTV1综合,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226635/1.m3u8
 CCTV1综合,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226705/1.m3u8
 CCTV1综合,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226736/1.m3u8
@@ -87,6 +86,7 @@ CETV4中教4台,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226724/1.m3u8
 山东教育,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226701/1.m3u8
 金鹰纪实,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226667/1.m3u8
 金鹰卡通,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226674/1.m3u8
+
 CCTV1,http://39.134.64.87:6610/PLTV/88888888/224/3221226016/index.m3u8?IASHttpSessionId=
 CCTV1,http://39.134.64.87:6610/PLTV/88888888/224/3221226559/index.m3u8?IASHttpSessionId=
 CCTV2,http://39.134.64.87:6610/PLTV/88888888/224/3221225588/index.m3u8?IASHttpSessionId=
