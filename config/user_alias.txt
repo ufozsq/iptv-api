@@ -1,4 +1,3 @@
-
 # 这是频道名称的别名名单，用于获取接口时将多种名称映射为一个名称的结果，可以提升获取量与准确率
 # 格式：模板频道名称,别名1,别名2,别名3
 # This is the alias list for channel names, used to map multiple names to a single name when fetching from the interface, improving the fetch volume and accuracy.
