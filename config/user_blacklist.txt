@@ -2,3 +2,4 @@
 # This is the interface blacklist list, the interface matching the keyword will be blocked, one keyword line
 /audio/
 http://smart.tv.home.kg
+http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
