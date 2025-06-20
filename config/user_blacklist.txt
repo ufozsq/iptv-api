@@ -3,4 +3,4 @@
 /audio/
 http://smart.tv.home.kg
 http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
-http://8.138.7.223/tv/dl/careryun.php?id=1
+http://8.138.7.223/tv/dl/careryun.php?id=
