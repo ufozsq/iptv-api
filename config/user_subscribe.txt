@@ -1,10 +1,7 @@
 # 这是订阅源列表，每行一个订阅地址
 # This is a list of subscription sources, with one subscription address per line
 
-http://8.138.7.223/51.txt
-http://tvbox6.icu/live.txt
 https://aktv.space/live.m3u
-http://aktv.space/live.m3u
 https://live.kilvn.com/iptv.m3u
 https://tv.iill.top/m3u/Gather
 https://live.hacks.tools/tv/iptv4.txt
