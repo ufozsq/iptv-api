@@ -5,7 +5,7 @@ CCTV5+
 CCTV6
 CCTV7
 CCTV13
-CCTV4K
+CCTV-4K
 湖南卫视
 翡翠台
 明珠台
