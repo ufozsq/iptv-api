@@ -7,20 +7,52 @@ CCTV7
 CCTV13
 CCTV-4K
 湖南卫视
+无线新闻
+無線新聞台
+無線衛星新聞台
+无线新闻台(北美)
 翡翠台
+翡翠台 4K
+翡翠综合台(北美)
+東森新聞
 明珠台
+明珠剧集台(北美)
 凤凰中文
+鳳凰中文
+鳳凰衛視中文台
 凤凰资讯
+鳳凰資訊
 凤凰香港
+鳳凰香港
 凤凰卫视
+TVBS
+TVB Plus
+TVBS新聞
 TVBS亚洲
 香港卫视
 纬来体育
 纬来育乐
-J2
-Viutv
+中天新闻台
+中天新聞台
+亞洲新聞台
+東方衛視國際頻道
+千禧經典台(HK)
+娛樂新聞台(HK)
+寰宇新聞台
+美亞電影台(HK)
+翡翠剧集台(北美)
+黃金翡翠台
+三立新聞iNEWS
+華視
+中視
+中視新聞
+中視經典台
+台視
+台視新聞
+民視
+民視第一台
+民視綜藝台
 三立台湾
-无线新闻
 三立新闻
 东森综合
 东森超视
@@ -30,36 +62,38 @@ Now华剧
 靖天资讯
 星卫娱乐
 卫视卡式
+緯來體育
+天映电影
+好萊塢電影台
+東森洋片
+緯來體育台
+曼聯電視頻道
+朝鮮恩情台
+ELTV生活英語台
+龍華偶像台
+龍華日韓台
+龍華電影台
 28 AI 智慧賽馬
 Channel 5 HD
 Channel 8 HD
 Channel U HD
+CHANNELU
+J2
+Viutv
+8TV
 myTV SUPER 18台
+Japan News 24H LIVE
+日テレNEWS LIVE
+IQIYI
+CNA
+KPOP+
 PopC
-ROCK Action
-TVB Plus
-tvN
-中天新聞台
-千禧經典台(HK)
-娛樂新聞台(HK)
-寰宇新聞台
-明珠剧集台(北美)
-明珠台
-無線新聞台
-美亞電影台(HK)
-翡翠剧集台(北美)
-翡翠台
-翡翠台 4K
-翡翠综合台(北美)
-鳳凰中文
-鳳凰資訊
-鳳凰香港
-黃金翡翠台
 AXN
+tvN
+HBO
+ROCK Action
 Love Nature HD
-无线新闻台(北美)
-東森新聞
-Animax(HK)
+Animax (HK)
 DW
 France 24
 KIX
@@ -70,9 +104,6 @@ Thrill
 Xite Hits
 Xite Rock
 ZooMoo
-亞洲新聞台
-東方衛視國際頻道
-無線衛星新聞台
 Celestial Classic Movies
 Celestial Movies
 CINEMAWORLD
@@ -84,22 +115,9 @@ TV9
 TVB Jade
 TVB Xing He
 Unifi Sport
-曼聯電視頻道
-朝鮮恩情台
-ELTV生活英語台
-三立新聞iNEWS
-中視
-中視新聞
-台視
-台視新聞
-華視
-龍華偶像台
-龍華日韓台
-龍華電影台
 beIN SPORTS XTRA
 PAC12
 Tennis Channel DE
-緯來體育
 Asian Action
 Astro Football
 Astro IQIYI
