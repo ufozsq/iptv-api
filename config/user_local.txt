@@ -432,7 +432,7 @@ CCTV赛事,http://222.169.85.8:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=
 黑龙江卫视,http://222.218.159.235:8181/tsfile/live/faacts/1103_1.m3u8?key=txiptv&playlive=1&authid=0
 黑龙江卫视,http://221.199.193.191:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0
 
-4K,#genre#
+
 广东卫视4K,http://106.53.99.30/tv/api.php?id=gdws
 深圳卫视4K,http://106.53.99.30/tv/api.php?id=szws4k
 北京卫视4K,http://106.53.99.30/tv/api.php?id=bjws4k
@@ -451,8 +451,6 @@ FCT FHD,http://106.53.99.30/tv/hk.php?id=fct
 测试频道4K,https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
 
 
-
-测试,#genre#
 广州综合频道,http://8.138.7.223/tv/gd.php?id=gzzh
 广州影视频道,http://8.138.7.223/tv/gd.php?id=gzys
 广州新闻频道,http://8.138.7.223/tv/gd.php?id=gzxw
@@ -465,8 +463,6 @@ FCT FHD,http://106.53.99.30/tv/hk.php?id=fct
 广州南国都市4K,http://8.138.7.223/tv/gd.php?id=gztv5
 
 
-
-黑龙江移动V6,#genre#
 CCTV-1综合频道,http://[2409:8087:1a15:10d1::36]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8
 CCTV-1综合频道,http://[2409:8087:1a15:10d1::34]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226559/index.m3u8
 CCTV-2财经频道,http://[2409:8087:1a15:10d1::38]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226540/index.m3u8
@@ -558,7 +554,6 @@ CGTN记录,http://[2409:8087:1a15:10d1::34]/ottrrs.hl.chinamobile.com/PLTV/88888
 
 
 
-推流-内网,#genre#
 CCTV1,https://live.sxrtv.com/iptv/cctv1.flv
 CCTV2,https://live.sxrtv.com/iptv/cctv2.flv
 CCTV3,https://live.sxrtv.com/iptv/cctv3.flv
@@ -625,7 +620,6 @@ CHC影迷电影,https://live.sxrtv.com/iptv/chcymdy.flv
 
 
 
-广东移动-内网,#genre#
 CCTV1HD,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226635/1.m3u8
 CCTV14HD,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226645/1.m3u8
 CCTV15HD,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226648/1.m3u8
@@ -711,7 +705,6 @@ CCTV1综合php代理,http://106.53.99.30/tv/api.php?id=cctv1
 
 
 
-移动全网通,#genre#
 CCTV4,http://fjcm-2118.live.iptv.darwinchow.com/PLTV/88888888/224/3221225802/index.m3u8
 CCTV7,http://fjcm-2118.live.iptv.darwinchow.com/PLTV/88888888/224/3221225805/index.m3u8
 CCTV1,http://fjcm-2118.live.iptv.darwinchow.com/PLTV/88888888/224/3221225812/index.m3u8
@@ -856,7 +849,7 @@ CCTV16_4K,http://fjcm-2117.live.iptv.darwinchow.com/PLTV/88888888/224/3221227162
 
 
 
-湖南移动9D源,#genre#
+
 CCTV1-综合,http://183.215.134.239:19901/tsfile/live/0001_1.m3u8
 CCTV2-财经,http://183.215.134.239:19901/tsfile/live/0002_1.m3u8
 CCTV3-综艺,http://183.215.134.239:19901/tsfile/live/0003_1.m3u8
@@ -880,7 +873,6 @@ CCTV13-新闻,http://183.215.134.239:19901/tsfile/live/0013_1.m3u8
 
 
 
-上海体育频道,#genre#
 上海新纪实,http://8.138.7.223/tv/shtv.php?id=xjs
 上海魔都眼,http://8.138.7.223/tv/shtv.php?id=mdy
 上海乐游,http://8.138.7.223/tv/shtv.php?id=ly
@@ -890,7 +882,6 @@ CCTV13-新闻,http://183.215.134.239:19901/tsfile/live/0013_1.m3u8
 
 
 
-🐼酒店源测试,#genre#
 CCTV-1综合,http://183.236.32.24:9901/hls/1001/index.m3u8
 CCTV-2财经,http://183.236.32.24:9901/hls/1002/index.m3u8
 CCTV-3综艺,http://183.236.32.24:9901/hls/1003/index.m3u8
@@ -943,7 +934,6 @@ CCTV-17农业农村,http://183.236.32.24:9901/hls/1017/index.m3u8
 优漫卡通,http://183.236.32.24:9901/hls/1051/index.m3u8
 
 
-酒店源测试,#genre#
 CCTV1综合,http://hxgcs.loli520.xyz/nptv/nptv.php?ID=mgtv/608807420.m3u8
 CCTV2财经,http://hxgcs.loli520.xyz/nptv/nptv.php?ID=mgtv/631780532.m3u8
 CCTV3综艺,http://hxgcs.loli520.xyz/nptv/nptv.php?ID=mgtv/624878271.m3u8
@@ -1182,11 +1172,6 @@ CGTN西班牙语,http://hxgcs.loli520.xyz/nptv/nptv.php?ID=mgtv/609006450.m3u8
 咪咕视频_8M1080_咪视通-9,http://hxgcs.loli520.xyz/nptv/nptv.php?ID=itv/3000000001000028638.m3u8
 ?cdn=FifastbLive
 
-//#公众号：榴芒电视
-//资源库：https://flowus.cn/kdsb
-
-
-天津电信-组播1,#genre#
 天津卫视,http://180.213.170.24:8188/rtp/239.5.1.1:5000
 天津新闻频道,http://180.213.170.24:8188/rtp/239.5.1.30:5000
 天津文艺频道,http://180.213.170.24:8188/rtp/239.5.1.31:5000
@@ -1300,7 +1285,7 @@ CETV早期教育,http://180.213.170.24:8188/rtp/239.5.1.144:5000
 音乐广播,http://180.213.170.24:8188/rtp/239.5.0.121:5000
 动听885,http://180.213.170.24:8188/rtp/239.5.0.122:5000
 
-甘肃电信-组播1,#genre#
+
 凤凰中文,http://42.92.195.111:10000/udp/239.255.30.50:8231
 凤凰资讯,http://42.92.195.111:10000/udp/239.255.30.70:8231
 甘肃卫视,http://42.92.195.111:10000/udp/239.255.30.249:8231
@@ -1383,7 +1368,6 @@ BesTV健康,http://42.92.195.111:10000/udp/239.255.30.197:8231
 IPTV5体育,http://42.92.195.111:10000/udp/239.255.30.115:8231
 凤凰香港,http://42.92.195.111:10000/udp/239.255.30.123:8231
 
-山西电信-组播1,#genre#
 山西卫视,http://1.70.249.236:4000/udp/239.1.1.1:8001
 黄河电视台,http://1.70.249.236:4000/udp/239.1.1.2:8002
 山西经济与科技,http://1.70.249.236:4000/udp/239.1.1.3:8003
@@ -1482,7 +1466,7 @@ CETV4,http://1.70.249.236:4000/rtp/239.1.1.67:8067
 嘉佳卡通,http://1.70.249.236:4000/rtp/239.1.1.68:8068
 哈哈炫动,http://1.70.249.236:4000/rtp/239.1.1.64:8064
 优漫卡通,http://1.70.249.236:4000/rtp/239.1.1.72:8072
-山西电信-组播2,#genre#
+
 山西卫视,http://110.178.145.40:8188/udp/239.1.1.1:8001
 黄河电视台,http://110.178.145.40:8188/udp/239.1.1.2:8002
 山西经济与科技,http://110.178.145.40:8188/udp/239.1.1.3:8003
