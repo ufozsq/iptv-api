@@ -2,3 +2,34 @@
 # 填写频道名称会直接保留该记录至最终结果，如：CCTV-1,接口地址，只填写接口地址则对所有频道生效，多条记录换行输入。
 # This is the whitelist of the interface or subscription source. The interface in the whitelist or the interface obtained by the subscription source will not participate in the speed measurement and will be prioritized in the result.
 # Filling in the channel name will directly retain the record to the final result, such as: CCTV-1,url, only fill in the interface address will be effective for all channels, multiple records newline input.
+
+广东卫视4K,http://106.53.99.30/tv/api.php?id=gdws
+深圳卫视4K,http://106.53.99.30/tv/api.php?id=szws4k
+北京卫视4K,http://106.53.99.30/tv/api.php?id=bjws4k
+CCTV-4K,http://106.53.99.30/tv/api.php?id=cctv4k
+CCTV-16-4K,http://106.53.99.30/tv/api.php?id=cctv16-4k
+FCT FHD,http://106.53.99.30/tv/hk.php?id=fct
+北京卫视4K,http://106.53.99.30/tv/api.php?id=bjws4k
+广东卫视4K,http://106.53.99.30/tv/api.php?id=gdws
+广东卫视4K,http://106.53.99.30/tv/api.php?id=gdws4k
+广东卫视4K,http://8.138.7.223/tv/api.php?id=gdws4k
+苏州修复4K,http://106.53.99.30/tv/api.php?id=sztv4k
+河北电视4K,http://106.53.99.30/tv/api.php?id=hebtv4k
+广州电视4K,http://8.138.7.223/tv/gd.php?id=gz4k
+广州电视4K,http://8.138.7.223/tv/gd.php?id=gztv5
+法国时尚4K,https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
+测试频道4K,https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
+
+广州综合频道,http://8.138.7.223/tv/gd.php?id=gzzh
+广州影视频道,http://8.138.7.223/tv/gd.php?id=gzys
+广州新闻频道,http://8.138.7.223/tv/gd.php?id=gzxw
+广州法治频道,http://8.138.7.223/tv/gd.php?id=gzfz
+广州南国都市4K,http://8.138.7.223/tv/gd.php?id=gz4k
+广州综合频道,http://8.138.7.223/tv/gd.php?id=gztv1
+广州新闻频道,http://8.138.7.223/tv/gd.php?id=gztv2
+广州影视频道,http://8.138.7.223/tv/gd.php?id=gztv3
+广州法治频道,http://8.138.7.223/tv/gd.php?id=gztv4
+广州南国都市4K,http://8.138.7.223/tv/gd.php?id=gztv5
+
+无线新闻台,http://erp.giihgtidg.com:8080/live/wxxw01.m3u8
+翡翠台,http://erp.giihgtidg.com:8080/live/jade01.m3u8
