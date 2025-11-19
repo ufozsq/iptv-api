@@ -276,7 +276,7 @@ def check_url_by_keywords(url, keywords=None):
     Check by URL keywords
     """
     if not keywords:
-        return True
+        return False
     else:
         return any(keyword in url for keyword in keywords)
 
@@ -325,8 +325,8 @@ def get_ip_address():
     """
     Get the IP address
     """
-    host = os.getenv("APP_HOST", config.app_host)
-    port = os.getenv("APP_PORT", config.app_port)
+    host = config.app_host
+    port = config.app_port
     return f"{host}:{port}"
 
 
