@@ -75,12 +75,12 @@ class ConfigManager:
 
     @property
     def ipv_type(self):
-        return self.config.get("Settings", "ipv_type", fallback="全部").lower()
+        return self.config.get("Settings", "ipv_type", fallback="all").lower()
 
     @property
     def open_ipv6(self):
         return (
-                "ipv6" in self.ipv_type or "all" in self.ipv_type or "全部" in self.ipv_type
+                "ipv6" in self.ipv_type or "all" in self.ipv_type
         )
 
     @property
@@ -268,7 +268,7 @@ class ConfigManager:
         return [
             region.strip()
             for region in self.config.get(
-                "Settings", "multicast_region_list", fallback="全部"
+                "Settings", "multicast_region_list", fallback="all"
             ).split(",")
             if region.strip()
         ]
@@ -278,7 +278,7 @@ class ConfigManager:
         return [
             region.strip()
             for region in self.config.get(
-                "Settings", "hotel_region_list", fallback="全部"
+                "Settings", "hotel_region_list", fallback="all"
             ).split(",")
             if region.strip()
         ]
@@ -314,29 +314,8 @@ class ConfigManager:
         return self.config.getboolean("Settings", "open_empty_category", fallback=True)
 
     @property
-    def app_host(self):
-        env = os.getenv("APP_HOST")
-        if env:
-            return env
-        cfg = self.config.get("Settings", "app_host", fallback="127.0.0.1")
-        if cfg and cfg != "127.0.0.1":
-            return cfg
-        try:
-            s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-            try:
-                s.connect(("8.8.8.8", 80))
-                ip = s.getsockname()[0]
-            finally:
-                s.close()
-            if ip and not ip.startswith("127."):
-                return ip
-        except Exception:
-            pass
-        return cfg
-
-    @property
     def app_port(self):
-        return os.getenv("APP_PORT") or self.config.getint("Settings", "app_port", fallback=8000)
+        return self.config.getint("Settings", "app_port", fallback=5180)
 
     @property
     def nginx_http_port(self):
@@ -415,8 +394,20 @@ class ConfigManager:
         ]
 
     @property
+    def update_mode(self):
+        return self.config.get("Settings", "update_mode", fallback="interval")
+
+    @property
     def update_interval(self):
         return self.config.getfloat("Settings", "update_interval", fallback=12)
+
+    @property
+    def update_times(self):
+        return self.config.get("Settings", "update_times", fallback="")
+
+    @property
+    def update_startup(self):
+        return self.config.getboolean("Settings", "update_startup", fallback=True)
 
     @property
     def logo_url(self):
@@ -440,7 +431,25 @@ class ConfigManager:
 
     @property
     def public_domain(self):
-        return self.config.get("Settings", "public_domain", fallback="")
+        cfg = self.config.get("Settings", "public_domain", fallback="127.0.0.1")
+        if cfg and cfg != "127.0.0.1":
+            return cfg
+        try:
+            s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+            try:
+                s.connect(("8.8.8.8", 80))
+                ip = s.getsockname()[0]
+            finally:
+                s.close()
+            if ip and not ip.startswith("127."):
+                return ip
+        except Exception:
+            pass
+        return cfg
+
+    @property
+    def language(self):
+        return self.config.get("Settings", "language", fallback="zh_CN")
 
     def load(self):
         """
