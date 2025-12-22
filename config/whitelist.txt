@@ -1,148 +1,8 @@
 # 这是接口的白名单，白名单内的接口将不会参与测速，始终保留至结果最前。
 # 填写频道名称会直接保留该记录至最终结果，如：CCTV-1,接口地址，只填写接口地址则对所有频道生效，多条记录换行输入。
 # This is the whitelist for the interface. Interfaces in the whitelist will not participate in speed testing and will always be retained at the front of the results.
-# Filling in the channel name will directly retain the record to the final result, such as: CCTV-1,url, only fill in the interface address will be effective for all channels, multiple records newline input.
-
-
-
-
-
-[KEYWORDS]
-# 以下是关键字白名单，含有关键字的地址会被加入白名单，换行输入。
-# This is the keyword whitelist. Addresses containing keywords will be added to the whitelist, newline input.
-CCTV1
-CCTV5
-CCTV5+
-CCTV6
-CCTV7
-CCTV13
-CCTV-4K
-湖南卫视
-无线新闻
-無線新聞台
-無線衛星新聞台
-无线新闻台(北美)
-翡翠台
-翡翠台 4K
-翡翠综合台(北美)
-東森新聞
-明珠台
-明珠剧集台(北美)
-凤凰中文
-鳳凰中文
-鳳凰衛視中文台
-凤凰资讯
-鳳凰資訊
-凤凰香港
-鳳凰香港
-凤凰卫视
-TVBS
-TVB Plus
-TVBS新聞
-TVBS亚洲
-香港卫视
-纬来体育
-纬来育乐
-中天新闻台
-中天新聞台
-亞洲新聞台
-東方衛視國際頻道
-千禧經典台(HK)
-娛樂新聞台(HK)
-寰宇新聞台
-美亞電影台(HK)
-翡翠剧集台(北美)
-黃金翡翠台
-三立新聞iNEWS
-華視
-中視
-中視新聞
-中視經典台
-台視
-台視新聞
-民視
-民視第一台
-民視綜藝台
-三立台湾
-三立新闻
-东森综合
-东森超视
-东森电影
-Now剧集
-Now华剧
-靖天资讯
-星卫娱乐
-卫视卡式
-緯來體育
-天映电影
-好萊塢電影台
-東森洋片
-緯來體育台
-曼聯電視頻道
-朝鮮恩情台
-ELTV生活英語台
-龍華偶像台
-龍華日韓台
-龍華電影台
-28 AI 智慧賽馬
-Channel 5 HD
-Channel 8 HD
-Channel U HD
-CHANNELU
-J2
-Viutv
-8TV
-myTV SUPER 18台
-Japan News 24H LIVE
-日テレNEWS LIVE
-IQIYI
-CNA
-KPOP+
-PopC
-AXN
-tvN
-HBO
-ROCK Action
-Love Nature HD
-Animax (HK)
-DW
-France 24
-KIX
-NHK World-Japan
-Nick Jr
-Nickelodeon
-Thrill
-Xite Hits
-Xite Rock
-ZooMoo
-Celestial Classic Movies
-Celestial Movies
-CINEMAWORLD
-FIGHT SPORTS
-Mediacorp Entertainment Chinese
-NBA TV
-Sukan
-TV9
-TVB Jade
-TVB Xing He
-Unifi Sport
-beIN SPORTS XTRA
-PAC12
-Tennis Channel DE
-Asian Action
-Astro Football
-Astro IQIYI
-Astro QJ
-Astro 欢喜台
-Red Bull Sports
-YES network
-CBS SPORTS NETWORK
-ESPN
-ESPN NEWS
-Tennis Channel 2 US
-Tennis Channel US
-US MTV LIVE
-viuTV
+# Filling in the channel name will directly retain the record to the final result, such as:
+CCTV-1,url, only fill in the interface address will be effective for all channels, multiple records newline input.
 CCTV1,http://221.232.198.130:7777/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV1,http://111.9.163.109:55555/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV1,http://8.134.184.162:8314/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -497,3 +357,144 @@ CCTV17,http://110.72.70.202:8181/tsfile/live/0019_1.m3u8?key=txiptv&playlive=1&a
 黑龙江卫视,http://111.26.72.89:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0
 黑龙江卫视,http://218.104.239.114:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0
 黑龙江卫视,http://171.38.107.34:8181/tsfile/live/1040_1.m3u8?key=txiptv&playlive=1&authid=0
+
+
+
+
+
+[KEYWORDS]
+# 以下是关键字白名单，含有关键字的地址会被加入白名单，换行输入。
+# This is the keyword whitelist. Addresses containing keywords will be added to the whitelist, newline input.
+CCTV1
+CCTV5
+CCTV5+
+CCTV6
+CCTV7
+CCTV13
+CCTV-4K
+湖南卫视
+无线新闻
+無線新聞台
+無線衛星新聞台
+无线新闻台(北美)
+翡翠台
+翡翠台 4K
+翡翠综合台(北美)
+東森新聞
+明珠台
+明珠剧集台(北美)
+凤凰中文
+鳳凰中文
+鳳凰衛視中文台
+凤凰资讯
+鳳凰資訊
+凤凰香港
+鳳凰香港
+凤凰卫视
+TVBS
+TVB Plus
+TVBS新聞
+TVBS亚洲
+香港卫视
+纬来体育
+纬来育乐
+中天新闻台
+中天新聞台
+亞洲新聞台
+東方衛視國際頻道
+千禧經典台(HK)
+娛樂新聞台(HK)
+寰宇新聞台
+美亞電影台(HK)
+翡翠剧集台(北美)
+黃金翡翠台
+三立新聞iNEWS
+華視
+中視
+中視新聞
+中視經典台
+台視
+台視新聞
+民視
+民視第一台
+民視綜藝台
+三立台湾
+三立新闻
+东森综合
+东森超视
+东森电影
+Now剧集
+Now华剧
+靖天资讯
+星卫娱乐
+卫视卡式
+緯來體育
+天映电影
+好萊塢電影台
+東森洋片
+緯來體育台
+曼聯電視頻道
+朝鮮恩情台
+ELTV生活英語台
+龍華偶像台
+龍華日韓台
+龍華電影台
+28 AI 智慧賽馬
+Channel 5 HD
+Channel 8 HD
+Channel U HD
+CHANNELU
+J2
+Viutv
+8TV
+myTV SUPER 18台
+Japan News 24H LIVE
+日テレNEWS LIVE
+IQIYI
+CNA
+KPOP+
+PopC
+AXN
+tvN
+HBO
+ROCK Action
+Love Nature HD
+Animax (HK)
+DW
+France 24
+KIX
+NHK World-Japan
+Nick Jr
+Nickelodeon
+Thrill
+Xite Hits
+Xite Rock
+ZooMoo
+Celestial Classic Movies
+Celestial Movies
+CINEMAWORLD
+FIGHT SPORTS
+Mediacorp Entertainment Chinese
+NBA TV
+Sukan
+TV9
+TVB Jade
+TVB Xing He
+Unifi Sport
+beIN SPORTS XTRA
+PAC12
+Tennis Channel DE
+Asian Action
+Astro Football
+Astro IQIYI
+Astro QJ
+Astro 欢喜台
+Red Bull Sports
+YES network
+CBS SPORTS NETWORK
+ESPN
+ESPN NEWS
+Tennis Channel 2 US
+Tennis Channel US
+US MTV LIVE
+viuTV
