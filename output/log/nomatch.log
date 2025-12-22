@@ -38,191 +38,204 @@ CGTN,${replace}/609017205
 陕西都市青春频道,${replace}/956909358
 陕西秦腔频道,${replace}/956909303
 陕西新闻资讯频道,${replace}/956909289
-ABN China (720p),https://mediaserver.abnvideos.com/streams/abnchina.m3u8
-Angel TV Chinese (720p),https://janya-digimix.akamaized.net/vglive-sk-999451/chinese/ngrp:angelchinese_all/playlist.m3u8
-Animation Show Channel,http://180.213.174.225:9901/tsfile/live/1034_1.m3u8?authid=0&key=txiptv&playlive=1
-Anshun Comprehensive News Channel,https://hplayer1.juyun.tv/camera/154379194.m3u8
 财富天下,${replace}/956923159
 经典香港电影,${replace}/625703337
 抗战经典影片,${replace}/617432318
 新片放映厅,${replace}/619495952
-Bingtuan Satellite TV,http://49.113.179.174:4022/udp/238.125.4.13:5140
-Bread TV面包台 (720p),https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
-BRTV Kaku Childrens Channel,http://49.113.179.174:4022/udp/238.125.2.216:5140
-BRTV Science & Education Channel,http://49.113.179.174:4022/udp/238.125.3.121:5140
 CHC影迷电影,${replace}/952383261
 和美乡途轮播台,${replace}/713591450
 南方影视,${replace}/614961829
 中国天气,${replace}/959986621
-BRTV 北京卫视 [Not 24/7],http://ivi.bupt.edu.cn/hls/btv1.m3u8
 熊猫频道01高清,${replace}/609158151
-CCTV+ 1 (600p) [Not 24/7],https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
-CCTV+ 2 (600p) [Not 24/7],https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
-Channel Law,http://49.113.179.174:4022/udp/238.125.2.201:5140
 熊猫频道1,${replace}/608933610
-Channel Max,http://180.213.174.225:9901/tsfile/live/1037_1.m3u8?authid=0&key=txiptv&playlive=1
 熊猫频道2,${replace}/608933640
-Channel Tea,http://180.213.174.225:9901/tsfile/live/1041_1.m3u8?authid=0&key=txiptv&playlive=1
 熊猫频道3,${replace}/608934619
-CHC Action,http://180.213.174.225:9901/tsfile/live/1027_1.m3u8?authid=0&key=txiptv&playlive=1
 熊猫频道4,${replace}/608934721
-CHC Home Theater,http://180.213.174.225:9901/tsfile/live/1030_1.m3u8?authid=0&key=txiptv&playlive=1
 熊猫频道5,${replace}/608935104
-Chifeng Comprehensive News Chanel,http://play1-qk.nmtv.cn/live/1735546697341033.m3u8
 熊猫频道6,${replace}/608935797
-City Theater Channel,http://49.113.179.174:4022/udp/238.125.1.60:5140
 熊猫频道7,${replace}/609169286
 熊猫频道8,${replace}/609169287
-Documentary Humanities Channel,http://49.113.179.174:4022/udp/238.125.3.135:5140
 熊猫频道9,${replace}/609169226
-CCTV4欧洲,${replace}/608807419
-CCTV4美洲,${replace}/608807416
 熊猫频道10,${replace}/609169285
-DOX Surround,http://180.213.174.225:9901/tsfile/live/1032_1.m3u8?authid=0&key=txiptv&playlive=1
-CGTN外语纪录,${replace}/609006487
-CGTN阿拉伯语,${replace}/609154345
-DOX Yaqu,http://180.213.174.225:9901/tsfile/live/1033_1.m3u8?authid=0&key=txiptv&playlive=1
-CGTN西班牙语,${replace}/609006450
-CGTN法语,${replace}/609006476
-DOX Yijia,http://180.213.174.225:9901/tsfile/live/1031_1.m3u8?authid=0&key=txiptv&playlive=1
-CGTN俄语,${replace}/609006446
-老故事,${replace}/884121956
-Dragon TV International (360p),http://210.210.155.37/x6bnqe/s/s29/index.m3u8
-发现之旅,${replace}/624878970
-中学生,${replace}/708869532
-Ecology & Environment TV,http://49.113.179.174:4022/udp/238.125.2.175:5140
-CGTN,${replace}/609017205
-赛事最经典,${replace}/646596895
-Game Channel,http://49.113.179.174:4022/udp/238.125.1.36:5140
-体坛名栏汇,${replace}/629943305
-四海钓鱼,${replace}/637444975
-Golden Eagle Cartoon,http://1.24.190.98:10080/hls/51/index.m3u8
-陕西体育休闲频道,${replace}/956909356
-24小时城市联赛轮播台,${replace}/915512915
-Guangzhou TV,https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
-武术世界,${replace}/958475359
-海峡卫视,${replace}/849119120
-Harbin Comprehensive News Channel,https://stream.hrbtv.net/xwzh/playlist.m3u8?_upt=ef41dd531755913594
 最强综艺趴,${replace}/629942228
-中国农林卫视,${replace}/956904896
-Harbin Movie Channel,https://stream.hrbtv.net/yspd/playlist.m3u8
 嘉佳卡通,${replace}/614952364
-兵团卫视,${replace}/956923145
-Home Plus,https://homeplushls.wns.live/hls/stream.m3u8
 经典动画大集合,${replace}/629942219
-上视东方影视,${replace}/617290047
-Hunan Entertainment Channel,http://1732e975z9.zicp.fun:8082/hls/20/index.m3u8
 新动力量创一流,${replace}/713589837
-南京新闻综合频道,${replace}/838109047
-Hunan Ping Yu,http://49.113.179.174:4022/udp/238.125.5.102:5140
 中华特产,${replace}/959986618
-南京教科频道,${replace}/838153729
-2025-03-06 16:04:54,http://45.145.229.71:8866/TVOD/6000000001000029752/wasusyt/index.m3u8
-JiaJia Cartoon,http://49.113.179.174:4022/udp/238.125.0.158:5140
 环球旅游,${replace}/958475356
-南京十八频道,${replace}/838151753
-Jiangxi Children's Channel,https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv6.m3u8
 意甲 拉齐奥VS克雷莫内塞 全场回放(谭逸雄) 00:45,${replace}/961312072
-体育休闲频道,${replace}/626064707
-Jiangxi City Channel,https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv2.m3u8
 英超 托特纳姆热刺VS利物浦 全场回放（詹俊、张路、林梦鸽） 01:15,${replace}/961312404
-福州生活,http://live.zohi.tv:80/video/s10001-fztv-3/index.m3u8
-江苏城市频道,${replace}/626064714
-Jiangxi Economy & Life Channel,https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv3.m3u8
 英超 托特纳姆热刺VS利物浦 全场回放 (娄一晨、刘越) 01:15,${replace}/961312105
-福州综合,http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
-江苏国际,${replace}/626064674
-Jiangxi Movie Channel,https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv4.m3u8
 英超 托特纳姆热刺VS利物浦 【全场回放】 托特纳姆热刺vs利物浦 01:15,${replace}/961315302
-江苏影视频道,${replace}/626064697
-Jiangxi Public & Agriculture Channel,https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv5.m3u8
 英超 托特纳姆热刺VS利物浦 全场回放 (陈凯冬、何辉) 01:15,${replace}/961313140
-无线新闻,http://iptv.diyp.site/公众号【DIYP】.php?key=gat5&id=f7b4583df4a36084ee912dbe42ae7432
-江苏综艺频道,${replace}/626065193
-Jilin City Channel,https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/7e8474e6daea44ccaa5aa2300191439e/index.m3u8
 英超 托特纳姆热刺VS利物浦 全场回放（洪荒） 01:15,${replace}/961312590
-无线新闻,http://php.jdshipin.com:8880/TVOD/iptv.php?id=tvbxw
-公共新闻频道,${replace}/626064693
-Jilin Lifestyle Channel,https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/0a76740c72b74fabae611845aa21e06a/index.m3u8
 英超 托特纳姆热刺VS利物浦 全场回放 (陈渤胄) 01:15,${replace}/961312141
-无线新闻,https://cdn9.163189.xyz/smt3.1.1.php?id=inews_twn
-盐城新闻综合,${replace}/639731825
-Jilin Movie Channel,https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/906341e6f19b4c4bacdc89941eb85d12/index.m3u8
 德甲 RB莱比锡VS勒沃库森 全场回放 (李霄) 01:15,${replace}/961312084
-无线新闻,http://6v.nx.tc/smrt.php?playurl=http://v2hcdn.jdshipin.com/news/news.stream/chunklist_w1005.m3u8
-泰州新闻综合,${replace}/639731818
-Jilin Rural Channel,https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/3ffc4824dce54b92be185555923ce382/index.m3u8
 西甲 奥萨苏纳VS阿拉维斯 全场回放  (周楚雄) 01:15,${replace}/961312069
-无线新闻,http://cdn9.163189.xyz/smt1.1.php?id=inews_twn
-宿迁新闻综合,${replace}/639731832
-Laughter Theater,http://49.113.179.174:4022/udp/238.125.2.159:5140
 斯诺克 常冰玉 6-1 马克·艾伦 【回放】常冰玉6-1马克·艾伦（朱峰立） 03:00,${replace}/961314244
-无线新闻,https://v2hcdn.jdshipin.com/news/news.stream/chunklist_w105.m3u8
-徐州新闻综合,${replace}/639731747
-Liangshan TV [Not 24/7],http://118.122.2.29:9999/hls/47/index.m3u8
-农林卫视,https://migu.188766.xyz/?migutoken=c7ddca0808b138cca4ce4b60e358ccbf&id=%E4%B8%AD%E5%9B%BD%E5%86%9C%E6%9E%97%E5%8D%AB%E8%A7%86&type=yy
 斯诺克 常冰玉 6-1 马克·艾伦 【回放】常冰玉6-1马克·艾伦 03:00,${replace}/961314610
-无线新闻,http://v2hcdn.jdshipin.com/news/news.stream/chunklist_w1005.m3u8
-江阴新闻综合,${replace}/955227979
-Nanchang News & Generalist Channel,https://play-live-hls.jxtvcn.com.cn/live-city/tv_nanchang.m3u8
-兵团卫视,https://migu.188766.xyz/?migutoken=f500704b0ee35ee3f7b610a72f1bfa93&id=%E5%85%B5%E5%9B%A2%E5%8D%AB%E8%A7%86&type=yy
 意甲 尤文图斯VS罗马 全场回放  (吴桐、刘腾) 03:30,${replace}/961314081
-无线新闻,https://edge2a.v2h-cdn.com/news/news.stream/chunklist.m3u8
-宜兴新闻综合,${replace}/955227996
-Nei Monggol TV,http://1.24.190.98:10080/hls/39/index.m3u8
-浙江卫视4K,https://migu.188766.xyz/?migutoken=e6a005fd1b5fe72f2d969bae0ef16567&id=%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%864K&pp=1
 英超 利兹联VS水晶宫 全场回放 (刘焕) 03:45,${replace}/961314152
-无线新闻,http://122.152.202.33/s/81a8a44f/index.m3u8?id=21
-陕西银龄频道,${replace}/956909362
-Nei Monggol TV 2 Mongolian Culture Channel,http://1.24.190.98:10080/hls/40/index.m3u8
-东方卫视4K,#EXTVLCOPT:referer=https://live.kankanews.com/
 英超 埃弗顿VS阿森纳 全场回放 (涂远、李彦、孙蕊) 03:45,${replace}/961314176
-黑莓电影,http://php.jdshipin.com/TVOD/hnyd.php?id=200000001898/460000089800010073
-陕西都市青春频道,${replace}/956909358
-Nei Monggol TV Agriculture & Animal Channel,http://play1-qk.nmtv.cn/live/1686561299036179.m3u8
-深圳卫视4K,https://migu.188766.xyz/?migutoken=3fe3bf8126013f24f32c0c03eaa062ec&id=%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86&pp=1
 英超 埃弗顿VS阿森纳 全场回放 (江忠德) 03:45,${replace}/961314165
-黑莓电影,http://140.245.86.67:50001/1000000004000019624/ystenlive/index.m3u8
-陕西秦腔频道,${replace}/956909303
-Nei Monggol TV Children Channel,http://play1-qk.nmtv.cn/live/1686560464515368.m3u8
-苏州4K,https://tylive.kan0512.com/norecord/csztv4k_4k.m3u8
 西甲 皇家马德里VS塞维利亚 全场回放 (鹿中原、王宇) 03:45,${replace}/961314233
-精品体育,http://140.245.86.67:50001/1000000004000014634/ystenlive/index.m3u8
-陕西新闻资讯频道,${replace}/956909289
-Nei Monggol TV Culture Entertainment Channel,http://play1-qk.nmtv.cn/live/1686561195713372.m3u8
-河北4K,https://event.pull.hebtv.com:443/live/live101.m3u8
 NBA 掘金VS火箭 全场回放（王冠证、周鹏） 05:55,${replace}/961315071
-黑莓动画,http://php.jdshipin.com/TVOD/hnyd.php?id=200000001898/460000089800010002
-财富天下,${replace}/956923159
-Nei Monggol TV Economic & Life Channel,http://play1-qk.nmtv.cn/live/1686562470947181.m3u8
-CHC影迷电影,https://migu.188766.xyz/?migutoken=81471833597eec10cdf6fade17a9896d&id=CHC%E5%BD%B1%E8%BF%B7%E7%94%B5%E5%BD%B1&type=yy
 NBA 掘金VS火箭 全场回放（英文原声） 05:55,${replace}/961316435
-黑莓动画,http://api2.52tb.xyz/info?id=173&token=20230218qkyjia
-经典香港电影,${replace}/625703337
-Nei Monggol TV News Channel,http://play1-qk.nmtv.cn/live/1686560423879174.m3u8
-重温经典,#EXTVLCOPT:http-user-agent=okHttp/Mod-1.4.0.0
 逐马计划 广汽丰田·2025广州马拉松赛 广汽丰田·2025广州马拉松赛全场回放 07:00,${replace}/961317233
-黑莓动画,http://api3.52tb.xyz/info?id=173&token=20221127jxwhhemby
-抗战经典影片,${replace}/617432318
-Panzihihua Culture Tourism & Life Channel,https://live.pzhkai.com/wlshtl/sd/live.m3u8?_upt=f156a1051729836828
-新片放映厅,https://migu.188766.xyz/?migutoken=754a15e44737fd252f5969e2da751374&id=%E6%96%B0%E7%89%87%E6%94%BE%E6%98%A0%E5%8E%85&type=yy
-农林卫视,https://migu.188766.xyz/?migutoken=c7ddca0808b138cca4ce4b60e358ccbf&id=%E4%B8%AD%E5%9B%BD%E5%86%9C%E6%9E%97%E5%8D%AB%E8%A7%86&type=yy
 逐马计划 广汽丰田·2025广州马拉松赛 2025广州马拉松赛吴浩然视角 07:00,${replace}/961318467
-黑莓动画,https://allinone.1436789.xyz:6006/itv/1000000004000021734.m3u8?cdn=ystenlive
-新片放映厅,${replace}/619495952
-Panzihihua News Channel,https://live.pzhkai.com/xwzhtl/sd/live.m3u8?_upt=6a1ad5741729836768
-经典香港电影,https://migu.188766.xyz/?migutoken=812656996613ae0dd449791881fa30c8&id=%E7%BB%8F%E5%85%B8%E9%A6%99%E6%B8%AF%E7%94%B5%E5%BD%B1&type=yy
-兵团卫视,https://migu.188766.xyz/?migutoken=f500704b0ee35ee3f7b610a72f1bfa93&id=%E5%85%B5%E5%9B%A2%E5%8D%AB%E8%A7%86&type=yy
 马拉松系列赛 2025江门马拉松赛 2025江门马拉松赛全场回放 07:20,${replace}/961323423
-黑莓动画,http://lt.hxtre.com:35455/itv/1000000004000021734.m3u8?cdn=ystenlive
-CHC影迷电影,${replace}/952383261
-QTV-1,http://video10.qtv.com.cn/drm/qtv1at/manifest.m3u8
-抗战经典影片,https://migu.188766.xyz/?migutoken=5672e0563433c42bf4d060d29e0f93e0&id=%E6%8A%97%E6%88%98%E7%BB%8F%E5%85%B8%E5%BD%B1%E7%89%87&type=yy
-浙江卫视4K,https://migu.188766.xyz/?migutoken=e6a005fd1b5fe72f2d969bae0ef16567&id=%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%864K&pp=1
 马拉松系列赛 2025江门马拉松赛 2025重庆半程马拉松全场回放 07:20,${replace}/961320168
-黑莓动画,https://iptv.sufa518.cn:8090/itv/1000000004000021734.m3u8?cdn=ystenlive
-和美乡途轮播台,${replace}/713591450
-QTV-2,http://video10.qtv.com.cn/drm/qtv2at/manifest.m3u8
-赛事最经典,https://migu.188766.xyz/?migutoken=96d24a120669a292feafe9e51b85b1df&id=%E8%B5%9B%E4%BA%8B%E6%9C%80%E7%BB%8F%E5%85%B8&type=yy
-东方卫视4K,#EXTVLCOPT:referer=https://live.kankanews.com/
 马拉松系列赛 2025江门马拉松赛 2025厦门环东半程马拉松赛全场回放 07:20,${replace}/961318120
+NBA 猛龙VS凯尔特人 全场回放 (邵化谦) 07:55,${replace}/961317671
+NBA 猛龙VS凯尔特人 全场回放（英文原声） 07:55,${replace}/961319211
+NBA 鹈鹕VS步行者 全场回放（王凯） 07:55,${replace}/961318095
+NBA 鹈鹕VS步行者 全场回放（英文原声） 07:55,${replace}/961319888
+NBA 76人VS独行侠 全场回放（季孟年） 07:55,${replace}/961317320
+NBA 76人VS独行侠 全场回放（英文原声） 07:55,${replace}/961322892
+NBA 活塞VS黄蜂 全场回放（金哲豪） 08:25,${replace}/961318506
+NBA 活塞VS黄蜂 全场回放（英文原声） 08:25,${replace}/961320123
+NBA 灰熊VS奇才 全场回放（徐秦威） 08:55,${replace}/961319311
+NBA 灰熊VS奇才 全场回放（英文原声） 08:55,${replace}/961320194
+NBA 勇士VS太阳 全场回放（刘圳展、郭维盛、陈正昊、廖昕阳） 09:25,${replace}/961320046
+NBA 勇士VS太阳 全场回放（拜月宁） 09:25,${replace}/961320160
+NBA 勇士VS太阳 全场回放（英文原声） 09:25,${replace}/961321094
+NBA 爵士VS魔术 全场回放（罗森） 10:25,${replace}/961321177
+NBA 爵士VS魔术 全场回放（英文原声） 10:25,${replace}/961322935
+NBA 国王VS开拓者 全场回放（王晓晨、闫宇峰、秋童） 10:55,${replace}/961321384
+NBA 国王VS开拓者 全场回放（邢晨） 10:55,${replace}/961321677
+NBA 国王VS开拓者 全场回放（英文原声） 10:55,${replace}/961322413
+呼叫钓坛王者 女子组冠军争夺战 25/26赛季呼叫钓坛王者女子选拔赛day2全场回放（三） 11:00,${replace}/961327532
+呼叫钓坛王者 女子组冠军争夺战 25/26赛季呼叫钓坛王者女子选拔赛day2全场回放（二） 11:00,${replace}/961323882
+呼叫钓坛王者 女子组冠军争夺战 25/26赛季呼叫钓坛王者女子选拔赛day2全场回放（一） 11:00,${replace}/961323635
+NBA 快船VS湖人 全场回放 (杨健、曾令旭、刘铁、佳依) 11:25,${replace}/961321633
+NBA 快船VS湖人 全场回放 (郑泽鹏、大史) 11:25,${replace}/961321620
+NBA 快船VS湖人 全场回放（英文原声） 11:25,${replace}/961322102
+国际雪联世界杯 滑雪空巧混合团体赛 25/26赛季国际雪联世界杯全场回放：滑雪空巧混合团体赛（官方解说） 12:00,${replace}/961323665
+BWF 凤凰赛季第8冠 王祉怡获亚军 【回放】蒋振邦/魏雅欣0-2冯彦哲/黄东萍（鸿昆、余博洋、刘钟鸣） 14:00,${replace}/961322538
+BWF 凤凰赛季第8冠 王祉怡获亚军 【回放】小波波夫2-1石宇奇（鸿昆、余博洋、刘钟鸣） 14:00,${replace}/961324672
+BWF 凤凰赛季第8冠 王祉怡获亚军 【回放】金元浩/徐承宰2-0梁伟铿/王昶（鸿昆、余博洋、刘钟鸣） 14:00,${replace}/961325054
+BWF 凤凰赛季第8冠 王祉怡获亚军 【回放】安洗莹2-1王祉怡（鸿昆、余博洋、刘钟鸣） 14:00,${replace}/961324491
+BWF 凤凰赛季第8冠 王祉怡获亚军 【回放】福岛由纪/松本麻佑0-2白荷娜/李昭希（鸿昆、余博洋、刘钟鸣） 14:00,${replace}/961323516
+BWF 凤凰赛季第8冠 王祉怡获亚军 【回放】中国国家羽毛球队运动员退役仪式 14:00,${replace}/961325738
+BWF 凤凰赛季第8冠 王祉怡获亚军 【全场回放】总决赛决赛Day5（轩子博） 14:00,${replace}/961325660
+BWF 凤凰赛季第8冠 王祉怡获亚军 2025BWF总决赛决赛Day5全场回放 14:00,${replace}/961327524
+BWF 凤凰赛季第8冠 王祉怡获亚军 2025BWF总决赛决赛Day5全场回放（鸿昆、余博洋） 14:00,${replace}/961327238
+BWF 凤凰赛季第8冠 王祉怡获亚军 【全场回放】总决赛决赛Day5（鸿昆、刘钟鸣） 14:00,${replace}/961326186
+BWF 凤凰赛季第8冠 王祉怡获亚军 【全场回放】总决赛决赛Day5（朱胤丞） 14:00,${replace}/961325819
+BWF 凤凰赛季第8冠 王祉怡获亚军 【全场回放】总决赛决赛Day5（杨妮娜） 14:00,${replace}/961325740
+重庆城市足球超级联赛 涪陵国药太极队VS长寿飞华队 重庆城市足球超级联赛: 涪陵国药太极队VS长寿飞华队 17:30,${replace}/961249164
+NBL 长沙勇胜VS湖北文旅 全场回放（官方解说） 18:50,${replace}/961326189
+NBL 长沙勇胜VS湖北文旅 全场回放（原声） 18:50,${replace}/961326539
+NBL 焦作文旅VS石家庄翔蓝 全场回放（原声） 18:50,${replace}/961328831
+NBL 焦作文旅VS石家庄翔蓝 全场回放（官方解说） 18:50,${replace}/961326137
+NBL 杭州经纬VS盐南苏科雄狮 全场回放（现场解说） 18:50,${replace}/961325900
+NBL 杭州经纬VS盐南苏科雄狮 全场回放（原声） 18:50,${replace}/961325944
+UFC前瞻与回顾 2025UFC奖项评选：年度最佳比赛 2025UFC奖项评选全场回放：年度最佳比赛（陈瑞阳） 19:00,${replace}/961326781
+UFC前瞻与回顾 2025UFC奖项评选：年度最佳比赛 2025UFC奖项评选全场回放：年度最佳比赛 19:00,${replace}/961327374
+意甲 卡利亚里VS比萨 全场回放 (梁祥宇) 19:15,${replace}/961325748
+WCBA 武汉盛帆黄鹤VS陕西榆林天泽 全场回放（现场解说） 19:25,${replace}/961326512
+WCBA 武汉盛帆黄鹤VS陕西榆林天泽 全场回放（原声） 19:25,${replace}/961326552
+WCBA 河南豫光金铅VS福建金篮 全场回放（现场解说） 19:25,${replace}/961327430
+WCBA 河南豫光金铅VS福建金篮 全场回放（原声） 19:25,${replace}/961327119
+WCBA 上海浦发银行VS山东赤水河酒 全场回放（现场解说） 19:25,${replace}/961327409
+WCBA 上海浦发银行VS山东赤水河酒 全场回放（原声） 19:25,${replace}/961326571
+WCBA 江西赣星VS厦门环东文旅 全场回放（原声） 19:25,${replace}/961328655
+浙江省城市篮球联赛 绍兴75-70苍南 2025浙江省城市篮球联赛: 绍兴VS苍南 19:30,${replace}/961049298
+浙江省城市篮球联赛 宁波73-50台州湾 2025浙江省城市篮球联赛: 宁波VS台州湾新区 19:30,${replace}/961049312
+NBL 合肥狂风VS安徽皖江龙 全场回放（官方解说） 19:20,${replace}/961327795
+NBL 合肥狂风VS安徽皖江龙 全场回放（原声） 19:20,${replace}/961326767
+CBA 天津先行者VS山西汾酒 《球你别说了》篮球篇Ep01上-48分钟变40分钟+潜力赛 联赛和国家队能双赢吗 19:35,${replace}/961052902
+CBA 浙江方兴渡VS上海久事 《球你别说了》篮球篇Ep01上-48分钟变40分钟+潜力赛 联赛和国家队能双赢吗 19:35,${replace}/961052902
+湖南省足球联赛 株洲队VS常德队 全场回放（官方解说） 19:30,${replace}/961327726
+西甲 吉罗纳VS马德里竞技 全场回放 (孙雨轩、贺宇) 20:45,${replace}/961326702
+斯诺克 决赛第一阶段：常冰玉2-6韦克林 【回放】克里斯·韦克林6-2常冰玉（柏林） 21:00,${replace}/961328052
+斯诺克 决赛第一阶段：常冰玉2-6韦克林 【回放】克里斯·韦克林6-2常冰玉 21:00,${replace}/961329098
+意甲 萨索洛VS都灵 全场回放（马延峰） 21:45,${replace}/961327399
+国际马联系列赛 马术场地障碍世界杯西欧联赛 2025马术场地障碍世界杯西欧联赛伦敦站全场回放 22:20,${replace}/961329021
+德甲 美因茨VS圣保利 全场回放 (赵宇) 22:15,${replace}/961327609
+西甲 比利亚雷亚尔VS巴塞罗那 全场回放 (张昊泽、李欣) 23:00,${replace}/961328389
+乒乓球欧冠 尼姆-蒙彼利埃VS新维也纳索莱克斯 【全场回放】尼姆-蒙彼利埃3-0新维也纳索莱克斯（小马哥） 00:00,${replace}/961329013
+乒乓球欧冠 尼姆-蒙彼利埃VS新维也纳索莱克斯 【全场回放】尼姆-蒙彼利埃3-0新维也纳索莱克斯 00:00,${replace}/961329175
+乒乓球欧冠 昆内邦VS格林韦特斯巴赫 【全场回放】昆内邦3-0格林韦特斯巴赫（周冠达） 00:00,${replace}/961328676
+乒乓球欧冠 昆内邦VS格林韦特斯巴赫 【全场回放】昆内邦3-0格林韦特斯巴赫 00:00,${replace}/961329058
+英超 阿斯顿维拉VS曼联 全场回放 (吴桐、徐阳、程思钦) 00:00,${replace}/961329078
+英超 阿斯顿维拉VS曼联 全场回放 (陈熙荣、何辉) 00:00,${replace}/961329319
+德甲 海登海姆VS拜仁慕尼黑 全场回放 (胡小凡、张力) 00:15,${replace}/961329158
+意甲 佛罗伦萨VS乌迪内斯 全场回放 (鲁靖明) 00:45,${replace}/961329216
+西甲 埃尔切VS巴列卡诺 全场回放 (梁祥宇) 01:15,${replace}/961329398
+乒乓球欧冠 苏赫纽夫奥尔利奇银行VS霍博肯索卡 【全场回放】苏赫纽夫奥尔利奇银行3-1霍博肯索卡（周泽昊） 02:25,${replace}/961329637
+乒乓球欧冠 苏赫纽夫奥尔利奇银行VS霍博肯索卡 【全场回放】苏赫纽夫奥尔利奇银行3-1霍博肯索卡 02:25,${replace}/961330028
+斯诺克 决赛第二阶段：常冰玉2-9韦克林 【回放】克里斯·韦克林9-2常冰玉（柏林） 03:00,${replace}/961329444
+斯诺克 决赛第二阶段：常冰玉2-9韦克林 【回放】克里斯·韦克林9-2常冰玉 03:00,${replace}/961329542
+意甲 热那亚VS亚特兰大 全场回放 (乔迁) 03:30,${replace}/961329947
+西甲 皇家贝蒂斯VS赫塔菲 全场回放 (兰子非) 03:45,${replace}/961330002
+NBA 老鹰VS公牛 全场回放（张泽欣） 04:25,${replace}/961330346
+NBA 老鹰VS公牛 全场回放（英文原声） 04:25,${replace}/961330844
+NBA 尼克斯VS热火 全场回放（盛哲） 06:55,${replace}/961332588
+NBA 尼克斯VS热火 全场回放（英文原声） 06:55,${replace}/961333540
+NBA 篮网VS猛龙 全场回放（王冠证） 06:55,${replace}/961332353
+NBA 森林狼VS雄鹿 全场回放（邢晨） 07:55,${replace}/961333422
+NBA 森林狼VS雄鹿 全场回放（英文原声） 07:55,${replace}/961335336
+NBA 奇才VS马刺 全场回放（王晓晨） 07:55,${replace}/961334168
+NBA 奇才VS马刺 全场回放（英文原声） 07:55,${replace}/961335427
+乒乓球经典赛事 楚钦独守半区拼到底 因伤退赛盼康复 经典赛事 19:00,${replace}/961246995
+WCBA 江苏南钢VS浙江稠州银行 清流播出 19:25,${replace}/961226181
+WCBA 北京首钢园VS山西竹叶青酒 清流播出 19:25,${replace}/961226202
+WCBA 石家庄英励VS四川蜀道远达 清流播出 19:25,${replace}/961226191
+NBL 江西鲸裕清酒VS上海玄鸟 解说 19:20,${replace}/961270410
+NBL 江西鲸裕清酒VS上海玄鸟 现场原声 19:20,${replace}/961270446
+NBL 山东蜜獾VS张家口体文旅 解说 19:20,${replace}/961270469
+NBL 山东蜜獾VS张家口体文旅 现场原声 19:20,${replace}/961270511
+CBA 长白山恩都里VS宁波町渥 图文直播 19:35,${replace}/961229415
+CBA 辽宁本钢VS北京控股 图文直播 19:35,${replace}/961229457
+CBA 山东高速VS深圳马可波罗 图文直播 19:35,${replace}/961229498
+CBA 四川丰谷酒业VS北京北汽 图文直播 19:35,${replace}/961229567
+WCBA 新疆天山VS东莞新彤盛 解说 19:55,${replace}/961226171
+亚冠精英 沙迦VS利雅得新月 吴桐 23:45,${replace}/961251386
+亚冠精英 沙迦VS利雅得新月 赛场原声 23:45,${replace}/961251366
+亚冠精英 大不里士拖拉机VS杜海勒 刘畅 23:45,${replace}/961251308
+亚冠精英 大不里士拖拉机VS杜海勒 赛场原声 23:45,${replace}/961251339
+亚冠精英 加拉法体育VS阿布扎比统一 刘焕 02:00,${replace}/961251452
+亚冠精英 加拉法体育VS阿布扎比统一 赛场原声 02:00,${replace}/961251445
+亚冠精英 巴格达警察VS吉达国民 张昊泽 02:00,${replace}/961251431
+亚冠精英 巴格达警察VS吉达国民 赛场原声 02:00,${replace}/961251405
+意超杯 那不勒斯VS博洛尼亚 石庆圣 李彦 02:45,${replace}/961331507
+意超杯 那不勒斯VS博洛尼亚 赛场原声 02:45,${replace}/961331481
+英超 富勒姆VS诺丁汉森林 刘畅 03:45,${replace}/961252170
+英超 富勒姆VS诺丁汉森林 英文原声 03:45,${replace}/961252159
+英超 富勒姆VS诺丁汉森林 赛场原声 03:45,${replace}/961252151
+英超 富勒姆VS诺丁汉森林 刘畅 03:45,${replace}/961252207
+西甲 毕尔巴鄂竞技VS西班牙人 张天翼 03:45,${replace}/961252667
+西甲 毕尔巴鄂竞技VS西班牙人 赛场原声 03:45,${replace}/961252652
+西甲 毕尔巴鄂竞技VS西班牙人 张天翼 03:45,${replace}/961252683
+NBA 骑士VS黄蜂 刘芳宇 07:55,${replace}/961278839
+NBA 骑士VS黄蜂 英文原声 07:55,${replace}/961278764
+NBA 凯尔特人VS步行者 蔡凯臣 08:25,${replace}/961279003
+NBA 凯尔特人VS步行者 英文原声 08:25,${replace}/961278876
+NBA 鹈鹕VS独行侠 王冠证 殷文玉 08:55,${replace}/961279126
+NBA 鹈鹕VS独行侠 英文原声 08:55,${replace}/961279064
+NBA 掘金VS爵士 邵化谦 贾磊 09:55,${replace}/961279214
+NBA 掘金VS爵士 英文原声 09:55,${replace}/961279131
+NBA 雷霆VS灰熊 姜帆 季孟年 秋童 10:15,${replace}/961279475
+NBA 雷霆VS灰熊 英文原声 10:25,${replace}/961279232
+NBA 勇士VS魔术 孙博 曾令旭 小七 10:45,${replace}/961278320
+NBA 勇士VS魔术 拜月宁 10:55,${replace}/961278341
+NBA 勇士VS魔术 英文原声 10:55,${replace}/961278402
+NBA 开拓者VS活塞 庄宁宇 徐咏 郭维盛 10:45,${replace}/961278427
+NBA 开拓者VS活塞 邢晨 10:55,${replace}/961278453
+NBA 开拓者VS活塞 英文原声 10:55,${replace}/961278522
+乒乓球经典赛事 伤病远离！莎莎弃单保双意志坚 经典赛事 19:00,${replace}/961247020
+WCBA 辽宁大连体产VS合肥文旅 清流播出 19:25,${replace}/961226210
+WCBA 河南豫光金铅VS福建金篮 解说 19:25,${replace}/961226221
+浙江省城市篮球联赛 嘉兴VS永康 2025浙江省城市篮球联赛: 嘉兴VS永康 19:30,${replace}/961194295
+NBL 贵州猛龙VS湖北文旅 解说 19:20,${replace}/961270621
+NBL 贵州猛龙VS湖北文旅 现场原声 19:20,${replace}/961270654
+NBL 杭州经纬VS合肥狂风 解说 19:20,${replace}/961270549
+NBL 杭州经纬VS合肥狂风 现场原声 19:20,${replace}/961270603
+CBA 广州朗肽海本VS广东东阳光 图文直播 19:35,${replace}/961229616
+CBA 南京天之蓝VS山西汾酒 图文直播 19:35,${replace}/961228026
+CBA 上海久事VS浙江稠州金租 图文直播 19:35,${replace}/961228034
+CBA 天津先行者VS江苏肯帝亚 图文直播 19:35,${replace}/961228043
+CBA 浙江方兴渡VS福建晋江文旅 图文直播 19:35,${replace}/961228055
+亚冠二级 伊尔比德侯赛因VS阿哈尔 王子睿 21:30,${replace}/961251496
+亚冠二级 伊尔比德侯赛因VS阿哈尔 赛场原声 21:30,${replace}/961251489
