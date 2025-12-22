@@ -27,16 +27,7 @@ TVBS亚洲
 香港卫视
 纬来体育
 纬来育乐
-中天新闻台
 中天新聞台
-亞洲新聞台
-東方衛視國際頻道
-千禧經典台(HK)
-娛樂新聞台(HK)
-寰宇新聞台
-美亞電影台(HK)
-翡翠剧集台(北美)
-黃金翡翠台
 三立新聞iNEWS
 華視
 中視
@@ -68,10 +59,6 @@ ELTV生活英語台
 龍華偶像台
 龍華日韓台
 龍華電影台
-28 AI 智慧賽馬
-Channel 5 HD
-Channel 8 HD
-Channel U HD
 CHANNELU
 J2
 Viutv
@@ -117,7 +104,6 @@ Asian Action
 Astro Football
 Astro IQIYI
 Astro QJ
-Astro 欢喜台
 Red Bull Sports
 YES network
 CBS SPORTS NETWORK
