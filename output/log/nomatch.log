@@ -1,11 +1,95 @@
+CCTV4欧洲,${replace}/608807419
+CCTV4美洲,${replace}/608807416
+CGTN外语纪录,${replace}/609006487
+CGTN阿拉伯语,${replace}/609154345
+CGTN西班牙语,${replace}/609006450
+CGTN法语,${replace}/609006476
+CGTN俄语,${replace}/609006446
+老故事,${replace}/884121956
+发现之旅,${replace}/624878970
+中学生,${replace}/708869532
+CGTN,${replace}/609017205
+赛事最经典,${replace}/646596895
+体坛名栏汇,${replace}/629943305
+四海钓鱼,${replace}/637444975
+陕西体育休闲频道,${replace}/956909356
+24小时城市联赛轮播台,${replace}/915512915
+武术世界,${replace}/958475359
+海峡卫视,${replace}/849119120
+中国农林卫视,${replace}/956904896
+兵团卫视,${replace}/956923145
+上视东方影视,${replace}/617290047
+南京新闻综合频道,${replace}/838109047
+南京教科频道,${replace}/838153729
+南京十八频道,${replace}/838151753
+体育休闲频道,${replace}/626064707
+江苏城市频道,${replace}/626064714
+江苏国际,${replace}/626064674
+江苏影视频道,${replace}/626064697
+江苏综艺频道,${replace}/626065193
+公共新闻频道,${replace}/626064693
+盐城新闻综合,${replace}/639731825
+泰州新闻综合,${replace}/639731818
+宿迁新闻综合,${replace}/639731832
+徐州新闻综合,${replace}/639731747
+江阴新闻综合,${replace}/955227979
+宜兴新闻综合,${replace}/955227996
+陕西银龄频道,${replace}/956909362
+陕西都市青春频道,${replace}/956909358
+陕西秦腔频道,${replace}/956909303
+陕西新闻资讯频道,${replace}/956909289
+财富天下,${replace}/956923159
+经典香港电影,${replace}/625703337
+抗战经典影片,${replace}/617432318
+新片放映厅,${replace}/619495952
+CHC影迷电影,${replace}/952383261
+和美乡途轮播台,${replace}/713591450
+南方影视,${replace}/614961829
+中国天气,${replace}/959986621
+熊猫频道01高清,${replace}/609158151
+熊猫频道1,${replace}/608933610
+熊猫频道2,${replace}/608933640
+熊猫频道3,${replace}/608934619
+熊猫频道4,${replace}/608934721
+熊猫频道5,${replace}/608935104
+熊猫频道6,${replace}/608935797
+熊猫频道7,${replace}/609169286
+熊猫频道8,${replace}/609169287
+熊猫频道9,${replace}/609169226
+熊猫频道10,${replace}/609169285
+最强综艺趴,${replace}/629942228
+嘉佳卡通,${replace}/614952364
+经典动画大集合,${replace}/629942219
+新动力量创一流,${replace}/713589837
+中华特产,${replace}/959986618
+环球旅游,${replace}/958475356
+意甲 拉齐奥VS克雷莫内塞 全场回放(谭逸雄) 00:45,${replace}/961312072
+英超 托特纳姆热刺VS利物浦 全场回放（詹俊、张路、林梦鸽） 01:15,${replace}/961312404
+英超 托特纳姆热刺VS利物浦 全场回放 (娄一晨、刘越) 01:15,${replace}/961312105
+英超 托特纳姆热刺VS利物浦 【全场回放】 托特纳姆热刺vs利物浦 01:15,${replace}/961315302
+英超 托特纳姆热刺VS利物浦 全场回放 (陈凯冬、何辉) 01:15,${replace}/961313140
+英超 托特纳姆热刺VS利物浦 全场回放（洪荒） 01:15,${replace}/961312590
+英超 托特纳姆热刺VS利物浦 全场回放 (陈渤胄) 01:15,${replace}/961312141
+德甲 RB莱比锡VS勒沃库森 全场回放 (李霄) 01:15,${replace}/961312084
+西甲 奥萨苏纳VS阿拉维斯 全场回放  (周楚雄) 01:15,${replace}/961312069
+斯诺克 常冰玉 6-1 马克·艾伦 【回放】常冰玉6-1马克·艾伦（朱峰立） 03:00,${replace}/961314244
+斯诺克 常冰玉 6-1 马克·艾伦 【回放】常冰玉6-1马克·艾伦 03:00,${replace}/961314610
 ABN China (720p),https://mediaserver.abnvideos.com/streams/abnchina.m3u8
+意甲 尤文图斯VS罗马 全场回放  (吴桐、刘腾) 03:30,${replace}/961314081
 Angel TV Chinese (720p),https://janya-digimix.akamaized.net/vglive-sk-999451/chinese/ngrp:angelchinese_all/playlist.m3u8
+英超 利兹联VS水晶宫 全场回放 (刘焕) 03:45,${replace}/961314152
 Animation Show Channel,http://180.213.174.225:9901/tsfile/live/1034_1.m3u8?authid=0&key=txiptv&playlive=1
+英超 埃弗顿VS阿森纳 全场回放 (涂远、李彦、孙蕊) 03:45,${replace}/961314176
 Anshun Comprehensive News Channel,https://hplayer1.juyun.tv/camera/154379194.m3u8
+英超 埃弗顿VS阿森纳 全场回放 (江忠德) 03:45,${replace}/961314165
 Bingtuan Satellite TV,http://49.113.179.174:4022/udp/238.125.4.13:5140
+西甲 皇家马德里VS塞维利亚 全场回放 (鹿中原、王宇) 03:45,${replace}/961314233
 Bread TV面包台 (720p),https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
+NBA 掘金VS火箭 全场回放（王冠证、周鹏） 05:55,${replace}/961315071
 BRTV Kaku Childrens Channel,http://49.113.179.174:4022/udp/238.125.2.216:5140
+NBA 掘金VS火箭 全场回放（英文原声） 05:55,${replace}/961316435
 BRTV Science & Education Channel,http://49.113.179.174:4022/udp/238.125.3.121:5140
+逐马计划 广汽丰田·2025广州马拉松赛 广汽丰田·2025广州马拉松赛全场回放 07:00,${replace}/961317233
 BRTV 北京卫视 [Not 24/7],http://ivi.bupt.edu.cn/hls/btv1.m3u8
 CCTV+ 1 (600p) [Not 24/7],https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
 CCTV+ 2 (600p) [Not 24/7],https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
@@ -16,6 +100,7 @@ CHC Action,http://180.213.174.225:9901/tsfile/live/1027_1.m3u8?authid=0&key=txip
 CHC Home Theater,http://180.213.174.225:9901/tsfile/live/1030_1.m3u8?authid=0&key=txiptv&playlive=1
 Chifeng Comprehensive News Chanel,http://play1-qk.nmtv.cn/live/1735546697341033.m3u8
 City Theater Channel,http://49.113.179.174:4022/udp/238.125.1.60:5140
+逐马计划 广汽丰田·2025广州马拉松赛 2025广州马拉松赛吴浩然视角 07:00,${replace}/961318467
 Documentary Humanities Channel,http://49.113.179.174:4022/udp/238.125.3.135:5140
 DOX Surround,http://180.213.174.225:9901/tsfile/live/1032_1.m3u8?authid=0&key=txiptv&playlive=1
 DOX Yaqu,http://180.213.174.225:9901/tsfile/live/1033_1.m3u8?authid=0&key=txiptv&playlive=1
@@ -43,107 +128,97 @@ Jilin Rural Channel,https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/3ffc4824dce54b
 Laughter Theater,http://49.113.179.174:4022/udp/238.125.2.159:5140
 Liangshan TV [Not 24/7],http://118.122.2.29:9999/hls/47/index.m3u8
 Nanchang News & Generalist Channel,https://play-live-hls.jxtvcn.com.cn/live-city/tv_nanchang.m3u8
+马拉松系列赛 2025江门马拉松赛 2025江门马拉松赛全场回放 07:20,${replace}/961323423
 Nei Monggol TV,http://1.24.190.98:10080/hls/39/index.m3u8
+马拉松系列赛 2025江门马拉松赛 2025重庆半程马拉松全场回放 07:20,${replace}/961320168
 Nei Monggol TV 2 Mongolian Culture Channel,http://1.24.190.98:10080/hls/40/index.m3u8
+马拉松系列赛 2025江门马拉松赛 2025厦门环东半程马拉松赛全场回放 07:20,${replace}/961318120
 Nei Monggol TV Agriculture & Animal Channel,http://play1-qk.nmtv.cn/live/1686561299036179.m3u8
+NBA 猛龙VS凯尔特人 全场回放 (邵化谦) 07:55,${replace}/961317671
+2025-03-06 16:04:54,http://45.145.229.71:8866/TVOD/6000000001000029752/wasusyt/index.m3u8
 Nei Monggol TV Children Channel,http://play1-qk.nmtv.cn/live/1686560464515368.m3u8
+NBA 猛龙VS凯尔特人 全场回放（英文原声） 07:55,${replace}/961319211
 Nei Monggol TV Culture Entertainment Channel,http://play1-qk.nmtv.cn/live/1686561195713372.m3u8
+NBA 鹈鹕VS步行者 全场回放（王凯） 07:55,${replace}/961318095
 Nei Monggol TV Economic & Life Channel,http://play1-qk.nmtv.cn/live/1686562470947181.m3u8
+NBA 鹈鹕VS步行者 全场回放（英文原声） 07:55,${replace}/961319888
+NBA 76人VS独行侠 全场回放（季孟年） 07:55,${replace}/961317320
+福州生活,http://live.zohi.tv:80/video/s10001-fztv-3/index.m3u8
+福州综合,http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
+NBA 76人VS独行侠 全场回放（英文原声） 07:55,${replace}/961322892
+NBA 活塞VS黄蜂 全场回放（金哲豪） 08:25,${replace}/961318506
 Nei Monggol TV News Channel,http://play1-qk.nmtv.cn/live/1686560423879174.m3u8
 Panzihihua Culture Tourism & Life Channel,https://live.pzhkai.com/wlshtl/sd/live.m3u8?_upt=f156a1051729836828
+NBA 活塞VS黄蜂 全场回放（英文原声） 08:25,${replace}/961320123
 Panzihihua News Channel,https://live.pzhkai.com/xwzhtl/sd/live.m3u8?_upt=6a1ad5741729836768
+NBA 灰熊VS奇才 全场回放（徐秦威） 08:55,${replace}/961319311
+无线新闻,http://iptv.diyp.site/公众号【DIYP】.php?key=gat5&id=f7b4583df4a36084ee912dbe42ae7432
 QTV-1,http://video10.qtv.com.cn/drm/qtv1at/manifest.m3u8
+NBA 灰熊VS奇才 全场回放（英文原声） 08:55,${replace}/961320194
+无线新闻,http://php.jdshipin.com:8880/TVOD/iptv.php?id=tvbxw
 QTV-2,http://video10.qtv.com.cn/drm/qtv2at/manifest.m3u8
+NBA 勇士VS太阳 全场回放（刘圳展、郭维盛、陈正昊、廖昕阳） 09:25,${replace}/961320046
+无线新闻,https://cdn9.163189.xyz/smt3.1.1.php?id=inews_twn
 QTV-3,http://video10.qtv.com.cn/drm/qtv3at/manifest.m3u8
+CCTV4欧洲,${replace}/608807419
+NBA 勇士VS太阳 全场回放（拜月宁） 09:25,${replace}/961320160
+无线新闻,http://6v.nx.tc/smrt.php?playurl=http://v2hcdn.jdshipin.com/news/news.stream/chunklist_w1005.m3u8
 QTV-4,http://video10.qtv.com.cn/drm/qtv4at/manifest.m3u8
+CCTV4美洲,${replace}/608807416
+NBA 勇士VS太阳 全场回放（英文原声） 09:25,${replace}/961321094
+无线新闻,http://cdn9.163189.xyz/smt1.1.php?id=inews_twn
 QTV-5,http://video10.qtv.com.cn/drm/qtv5at/manifest.m3u8
+CGTN外语纪录,${replace}/609006487
+NBA 爵士VS魔术 全场回放（罗森） 10:25,${replace}/961321177
+无线新闻,https://v2hcdn.jdshipin.com/news/news.stream/chunklist_w105.m3u8
 QTV-6,http://video10.qtv.com.cn/drm/qtv6at/manifest.m3u8
+CGTN阿拉伯语,${replace}/609154345
+NBA 爵士VS魔术 全场回放（英文原声） 10:25,${replace}/961322935
+无线新闻,http://v2hcdn.jdshipin.com/news/news.stream/chunklist_w1005.m3u8
 Shaanxi Agroforestry Satellite TV,http://49.113.179.174:4022/udp/238.125.4.154:5140
+CGTN西班牙语,${replace}/609006450
+NBA 国王VS开拓者 全场回放（王晓晨、闫宇峰、秋童） 10:55,${replace}/961321384
+无线新闻,https://edge2a.v2h-cdn.com/news/news.stream/chunklist.m3u8
 Shandong Education TV,http://49.113.179.174:4022/udp/238.125.0.156:5140
+CGTN法语,${replace}/609006476
+NBA 国王VS开拓者 全场回放（邢晨） 10:55,${replace}/961321677
+无线新闻,http://122.152.202.33/s/81a8a44f/index.m3u8?id=21
 Shanghai Education Television Station,http://223.166.234.114:7777/tsfile/live/1033_1.m3u8
+CGTN俄语,${replace}/609006446
+NBA 国王VS开拓者 全场回放（英文原声） 10:55,${replace}/961322413
+黑莓电影,http://php.jdshipin.com/TVOD/hnyd.php?id=200000001898/460000089800010073
 Shenzhen Satellite TV (2160p),https://livepull-tcms.sztv.com.cn/live/sz4Kpgm.m3u8
+老故事,${replace}/884121956
+呼叫钓坛王者 女子组冠军争夺战 25/26赛季呼叫钓坛王者女子选拔赛day2全场回放（三） 11:00,${replace}/961327532
+黑莓电影,http://140.245.86.67:50001/1000000004000019624/ystenlive/index.m3u8
 Sihai Fishing Channel,http://49.113.179.174:4022/udp/238.125.2.172:5140
+发现之旅,${replace}/624878970
+呼叫钓坛王者 女子组冠军争夺战 25/26赛季呼叫钓坛王者女子选拔赛day2全场回放（二） 11:00,${replace}/961323882
+精品体育,http://140.245.86.67:50001/1000000004000014634/ystenlive/index.m3u8
 Siping TV,http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598
+中学生,${replace}/708869532
+呼叫钓坛王者 女子组冠军争夺战 25/26赛季呼叫钓坛王者女子选拔赛day2全场回放（一） 11:00,${replace}/961323635
+黑莓动画,http://php.jdshipin.com/TVOD/hnyd.php?id=200000001898/460000089800010002
 SMG Football Channel,http://49.113.179.174:4022/udp/238.125.2.142:5140
+CGTN,${replace}/609017205
+NBA 快船VS湖人 全场回放 (杨健、曾令旭、刘铁、佳依) 11:25,${replace}/961321633
+黑莓动画,http://api2.52tb.xyz/info?id=173&token=20230218qkyjia
 STV City,http://61.173.144.157:9901/tsfile/live/1001_1.m3u8?authid=0&key=txiptv&playlive=1
+赛事最经典,${replace}/646596895
+NBA 快船VS湖人 全场回放 (郑泽鹏、大史) 11:25,${replace}/961321620
+黑莓动画,http://api3.52tb.xyz/info?id=173&token=20221127jxwhhemby
 STV News and General,http://61.173.144.157:9901/tsfile/live/1000_1.m3u8?authid=0&key=txiptv&playlive=1
+体坛名栏汇,${replace}/629943305
+NBA 快船VS湖人 全场回放（英文原声） 11:25,${replace}/961322102
+黑莓动画,https://allinone.1436789.xyz:6006/itv/1000000004000021734.m3u8?cdn=ystenlive
 Tonghua TV,http://lsfb.avap.jilintv.cn/zqvk7vpj/channel/43ea5771aa44421591f9dfd2b71f1b9b/index.m3u8
+四海钓鱼,${replace}/637444975
+国际雪联世界杯 滑雪空巧混合团体赛 25/26赛季国际雪联世界杯全场回放：滑雪空巧混合团体赛（官方解说） 12:00,${replace}/961323665
+黑莓动画,http://lt.hxtre.com:35455/itv/1000000004000021734.m3u8?cdn=ystenlive
 Toonmax TV,http://49.113.179.174:4022/udp/238.125.4.28:5140
+陕西体育休闲频道,${replace}/956909356
+BWF 凤凰赛季第8冠 王祉怡获亚军 【回放】蒋振邦/魏雅欣0-2冯彦哲/黄东萍（鸿昆、余博洋、刘钟鸣） 14:00,${replace}/961322538
+黑莓动画,https://iptv.sufa518.cn:8090/itv/1000000004000021734.m3u8?cdn=ystenlive
 TV BRICS Chinese (1080p),https://chibrics.mediacdn.ru/cdn/brics/chinese/playlist.m3u8
-Ugo Shop TV,http://49.113.179.174:4022/udp/238.125.4.184:5140
-VOA美国之音,https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8
-Weihai Comprehensive News Channel,http://l1.weihai.tv:8081/hls/969O76hb22.m3u8
-Weihai Ocean Channel,http://l2.weihai.tv:8081/hls/x8b19NoyEG.m3u8
-Weihai Public Channel,http://l2.weihai.tv:8081/hls/g16E3482eM.m3u8
-World Economy Channel,http://49.113.179.174:4022/udp/238.125.2.205:5140
-Xinjiang TV 1,https://klmysjtzb.rcsxzx.com/hls/klmy2.m3u8
-Xinjiang TV 2,http://49.113.179.174:4022/udp/238.125.3.175:5140
-Xinjiang TV 3,http://49.113.179.174:4022/udp/238.125.7.147:5140
-Xinjiang TV 5,http://49.113.179.174:4022/udp/238.125.7.149:5140
-Xinjiang TV 8,http://49.113.179.174:4022/udp/238.125.3.181:5140
-Xinjiang TV 9,http://49.113.179.174:4022/udp/238.125.7.153:5140
-Xinjiang TV 12,http://49.113.179.174:4022/udp/238.125.3.185:5140
-Xizang TV Tibetan,http://49.113.179.174:4022/udp/238.125.3.94:5140
-Yanbian Cinese Comprehensive Channel,https://live.ybtvyun.com/video/s10016-6d4fe23a90b3/index.m3u8
-Yicai TV,http://49.113.179.174:4022/udp/238.125.0.165:5140
-Zhejiang Satellite TV,https://play-qukan.cztv.com/live/1758879019692345.m3u8
-Zhejiang TV International,https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
-东方卫视 (2160p),http://118.81.195.79:9003/hls/23/index.m3u8
-中国气象 (576p) [Not 24/7],http://hls.weathertv.cn/tslslive/qCFIfHB/hls/live_sd.m3u8
-云南卫视 (1080p),https://hwapi.yunshicloud.com/8xughf/e0bx15.m3u8
-发现之旅 (576p),http://125.210.152.18:9090/live/FXZL_750.m3u8
-吉林卫视 (2160p),http://118.81.195.79:9003/hls/34/index.m3u8
-和政电视台,http://117.156.28.119/270000001111/1110000149/index.m3u8
-四川妇女儿童 (720p) [Not 24/7],http://scgctvshow.sctv.com/hdlive/sctv7/index.m3u8
-天津卫视 (1080p),http://39.134.115.163:8080/PLTV/88888910/224/3221225698/index.m3u8
-宁夏卫视 (576p) [Not 24/7],http://183.207.248.71/gitv/live1/G_NINGXIA/G_NINGXIA
-安徽卫视 (2160p),http://118.81.195.79:9003/hls/21/index.m3u8
-山东体育 (1080p) [Geo-blocked],http://livealone302.iqilu.com/iqilu/typd.m3u8
-山东农科 (406p) [Geo-blocked],http://livealone302.iqilu.com/iqilu/nkpd.m3u8
-山东卫视 (720p),http://125.210.152.18:9090/live/SDWSHD_H265.m3u8
-山东卫视 (1080p),http://39.134.115.163:8080/PLTV/88888910/224/3221225697/index.m3u8
-山东少儿 (406p) [Geo-blocked],http://livealone302.iqilu.com/iqilu/sepd.m3u8
-山东生活 (1080p) [Geo-blocked],http://livealone302.iqilu.com/iqilu/shpd.m3u8
-山东综艺 (406p) [Geo-blocked],http://livealone302.iqilu.com/iqilu/zypd.m3u8
-山东齐鲁 (1080p) [Geo-blocked],http://livealone302.iqilu.com/iqilu/qlpd.m3u8
-山西卫视 (2160p),http://118.81.195.79:9003/hls/19/index.m3u8
-广东卫视 (2160p),http://118.81.195.79:9003/hls/26/index.m3u8
-广西卫视 (576p),http://118.81.195.79:9003/hls/27/index.m3u8
-康巴卫视 (720p) [Not 24/7],http://scgctvshow.sctv.com/hdlive/kangba/1.m3u8
-徐州經濟生活 (1080p),http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221225947/index.m3u8
-房山电视台 (576p),https://live.funhillrm.com/2/playlist.m3u8
-敦煌电视台 (1080p),http://117.156.28.119/270000001111/1110000028/index.m3u8
-江苏体育 (576p),http://183.207.248.71/gitv/live1/G_JSTY/G_JSTY
-江苏公共 (576p),http://183.207.248.71/gitv/live1/G_JSGG/G_JSGG
-江苏卫视 (1080p) [Not 24/7],http://183.207.248.71/cntv/live1/HD-2500k-1080P-jiangsustv/HD-2500k-1080P-jiangsustv
-江苏城市 (576p),http://183.207.248.71/gitv/live1/G_JSCS/G_JSCS
-江苏影视 (576p) [Not 24/7],http://183.207.248.71/gitv/live1/G_JSYS/G_JSYS
-江苏教育 (576p) [Not 24/7],http://183.207.248.71/gitv/live1/G_JSJY/G_JSJY
-江苏综艺 (576p) [Not 24/7],http://183.207.248.71/gitv/live1/G_JSZY/G_JSZY
-江西卫视 (1080p),http://39.134.115.163:8080/PLTV/88888910/224/3221225705/index.m3u8
-河北卫视 (2160p),http://118.81.195.79:9003/hls/29/index.m3u8
-河南卫视 (2160p),http://118.81.195.79:9003/hls/30/index.m3u8
-浙江少儿 (1080p),https://qiniup-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
-海南卫视 (576p),http://118.81.195.79:9003/hls/28/index.m3u8
-湖北卫视 (1080p),http://118.81.195.79:9003/hls/32/index.m3u8
-湖南都市 (576p),http://hnsd.chinashadt.com:2036/live/stream:hunandushi.stream/playlist.m3u8
-滁州市广播电视台 公共频道 (400p),http://live.cztv.cc:85/live/ggpd.m3u8
-滁州市广播电视台 新闻综合频道 (1080p),http://live.cztv.cc:85/live/xwpd.m3u8
-滁州市广播电视台 科教频道 (400p),http://live.cztv.cc:85/live/sjpd.m3u8
-甘肃卫视 (576p),http://118.81.195.79:9003/hls/25/index.m3u8
-白城新闻综合 [Geo-blocked],https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
-萍鄉新聞綜合 (576p) [Not 24/7],http://www.pxitv.com:8099/hls-live/livepkgr/_definst_/pxitvevent/pxtv1stream.m3u8
-西安丝路 (404p) [Not 24/7],http://stream2.xiancity.cn/xatv5/playlist.m3u8
-西安商务资讯 (180p) [Not 24/7],http://stream2.xiancity.cn/xatv3/playlist.m3u8
-贵州卫视 (576p),http://183.207.248.71/gitv/live1/G_GUIZHOU/G_GUIZHOU
-辽宁卫视 (1080p),http://39.134.39.37/PLTV/88888888/224/3221226209/index.m3u8
-酒泉新闻综合 (576p),http://117.156.28.119/270000001111/1110000001/index.m3u8
-重庆卫视 (1080p),http://118.81.195.79:9003/hls/22/index.m3u8
-长沙女性 [Geo-blocked],http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_349.m3u8
-长沙政法 [Geo-blocked],http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_348.m3u8
-长沙新闻 [Geo-blocked],http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_346.m3u8
-青海卫视 (1080p),http://live.geermurmt.com/qhws/sd/live.m3u8
-风尚购物 (1080p),http://183.207.248.71/cntv/live1/fengshanggw/fengshanggw
-高台电视台 (1080p),http://117.156.28.119/270000001111/1110000146/index.m3u8
-鹤壁新闻综合 (480p) [Not 24/7],http://pili-live-hls.hebitv.com/hebi/hebi.m3u8
-黑龙江 (1080p),http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221227492/index.m3u8
+24小时城市联赛轮播台,${replace}/915512915
+BWF 凤凰赛季第8冠 王祉怡获亚军 【回放】小波波夫2-1石宇奇（鸿昆、余博洋、刘钟鸣） 14:00,${replace}/961324672
