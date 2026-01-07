@@ -6,7 +6,6 @@ https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
 https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/others_output.txt
 https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
-https://bc.188766.xyz/?ip=
 https://bc.188766.xyz/?ip=&mima=bingcha1130
 http://43.251.226.89:8080/live.txt
 https://tv1288.xyz/10001.php
@@ -34,7 +33,6 @@ https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
 https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/others_output.txt
 https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
-https://bc.188766.xyz/?ip=
 https://bc.188766.xyz/?ip=&mima=bingcha1130
 http://43.251.226.89:8080/live.txt
 https://tv1288.xyz/10001.php
