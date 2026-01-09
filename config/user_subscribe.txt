@@ -9,20 +9,15 @@ https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
 https://bc.188766.xyz/?ip=&mima=bingcha1130
 http://43.251.226.89:8080/live.txt
 https://tv1288.xyz/10001.php
-https://tv1288.xyz/20001.php
 http://rihou.cc:555/gggg.nzk
-https://iptv.laobaitv.net
 https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u
 https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt
 https://develop202.github.io/migu_video/interface.txt
 https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt
-https://gongdian.top/tv/iptv
-https://gongdian.top/tv/bingcha
-https://gongdian.top/tv/guovin
-https://gongdian.top/tv/develop202
 https://gongdian.top/tv/webvideo.txt
 http://rihou.cc:555/gggg.nzk
 https://raw.gitmirror.com/XiaoZhang5656/xiaozhang-5656.github.io/main/iptv-live.txt
+https://raw.githubusercontent.com/gitgordon85/IPTV-Check/refs/heads/master/config/866-898-9898
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
@@ -36,17 +31,12 @@ https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
 https://bc.188766.xyz/?ip=&mima=bingcha1130
 http://43.251.226.89:8080/live.txt
 https://tv1288.xyz/10001.php
-https://tv1288.xyz/20001.php
 http://rihou.cc:555/gggg.nzk
-https://iptv.laobaitv.net
 https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u
 https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt
 https://develop202.github.io/migu_video/interface.txt
 https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt
-https://gongdian.top/tv/iptv
-https://gongdian.top/tv/bingcha
-https://gongdian.top/tv/guovin
-https://gongdian.top/tv/develop202
 https://gongdian.top/tv/webvideo.txt
 http://rihou.cc:555/gggg.nzk
 https://raw.gitmirror.com/XiaoZhang5656/xiaozhang-5656.github.io/main/iptv-live.txt
+https://raw.githubusercontent.com/gitgordon85/IPTV-Check/refs/heads/master/config/866-898-9898
