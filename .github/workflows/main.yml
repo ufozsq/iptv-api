@@ -1,6 +1,6 @@
 name: 'Update schedule'
 
-于:
+on:
   schedule:
     - cron: '0 22 */3 * *'
     - cron: '0 10 */3 * *'
