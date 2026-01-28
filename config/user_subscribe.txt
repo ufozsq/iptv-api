@@ -19,6 +19,7 @@ https://gongdian.top/tv/webvideo.txt
 http://rihou.cc:555/gggg.nzk
 https://raw.gitmirror.com/XiaoZhang5656/xiaozhang-5656.github.io/main/iptv-live.txt
 https://raw.githubusercontent.com/gitgordon85/IPTV-Check/refs/heads/master/config/866-898-9898
+http://43.251.226.89:8080/live.txt
 
 
 [WHITELIST]
@@ -43,3 +44,4 @@ https://gongdian.top/tv/webvideo.txt
 http://rihou.cc:555/gggg.nzk
 https://raw.gitmirror.com/XiaoZhang5656/xiaozhang-5656.github.io/main/iptv-live.txt
 https://raw.githubusercontent.com/gitgordon85/IPTV-Check/refs/heads/master/config/866-898-9898
+http://43.251.226.89:8080/live.txt
