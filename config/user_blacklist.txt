@@ -1,0 +1,10 @@
+# 这是接口黑名单列表，符合关键字的接口将被拦截，一个关键字一行
+# This is the interface blacklist list, the interface matching the keyword will be blocked, one keyword line
+/audio/
+http://smart.tv.home.kg
+http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
+http://8.138.7.223/tv/dl/careryun.php?id=
+http://8.138.7.223/tv/dl/douyincdn.php?id=
+https://event.pull.hebtv.com/jishi/cp1.m3u8
+http://jwplay.hebyun.com.cn/live/cctv13/1500k/tzwj_video.m3u8
+http://120.76.248.139/live/bfgd/4200000489.m3u8
