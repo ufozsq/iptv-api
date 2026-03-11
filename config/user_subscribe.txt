@@ -1,8 +1,6 @@
 # 这是订阅源列表，每行一个订阅地址
 # This is a list of subscription sources, with one subscription address per line
 
-http://iptv-spider.ufozsq.ccwu.cc/sub?IPTV=txt
-https://raw.githubusercontent.com/Guovin/iptv-database/master/result.txt
 https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/cn.m3u
 https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
@@ -13,9 +11,7 @@ https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u
 https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt
 https://develop202.github.io/migu_video/interface.txt
 https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt
-https://raw.gitmirror.com/XiaoZhang5656/xiaozhang-5656.github.io/main/iptv-live.txt
 https://raw.githubusercontent.com/gitgordon85/IPTV-Check/refs/heads/master/config/866-898-9898
-http://www.xymm.de5.net:8880/live.txt
 https://live.tv.darwinchow.com/sub/02Rmp7XOozfgFiaSPkRbxv2Ud5Kn8V
 https://gitee.com/xiaoqiapi/xiaoqi-network/raw/master/zhibo.txt
 https://4key.cn/FP
@@ -23,7 +19,6 @@ https://gitee.com/feicater/01/raw/master/1012.txt
 https://gitee.com/sheep-in-a-water-bottle/zb/raw/master/zb.txt
 https://4key.cn/FP
 https://gitee.com/xiaoqiapi/xiaoqi-network/raw/master/zhibo.txt
-https://ds65.tv1288.xyz
 https://php.ufozsq.ccwu.cc/stv.php
 http://migu_video.ufozsq.ccwu.cc/migu123456
 http://iptv-4gtv.ufozsq.ccwu.cc/channel?type=txt&token=c6pQgIJbVgT6nTEFajTJB6QWFQXqCq9jay2zYLDbC2J8pPMIScWsz1Ac9q1pqLrI
@@ -39,14 +34,17 @@ https://gongdian.top/tv/develop202
 https://gongdian.top/tv/webvideo.txt
 https://gitee.com/mytv-android/mymigu/raw/main/migu.m3u
 http://rihou.cc:555/gggg.nzk
-https://raw.githubusercontent.com/XiaoZhang5656/xiaozhang-5656.github.io/main/iptv-live.txt
+https://gh-proxy.org/https://raw.githubusercontent.com/XiaoZhang5656/xiaozhang-5656.github.io/main/iptv-live.txt
+https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u
+
+
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
 # This is the whitelist for subscription sources. Subscription sources in the whitelist will not participate in speed testing and will always be retained at the front of the results.
 
+http://156.238.248.80:8880/live.txt?key=710940
 http://iptv-spider.ufozsq.ccwu.cc/sub?IPTV=txt
-https://raw.githubusercontent.com/Guovin/iptv-database/master/result.txt
 https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/cn.m3u
 https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
@@ -57,9 +55,7 @@ https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u
 https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt
 https://develop202.github.io/migu_video/interface.txt
 https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt
-https://raw.gitmirror.com/XiaoZhang5656/xiaozhang-5656.github.io/main/iptv-live.txt
 https://raw.githubusercontent.com/gitgordon85/IPTV-Check/refs/heads/master/config/866-898-9898
-http://www.xymm.de5.net:8880/live.txt
 https://live.tv.darwinchow.com/sub/02Rmp7XOozfgFiaSPkRbxv2Ud5Kn8V
 https://gitee.com/xiaoqiapi/xiaoqi-network/raw/master/zhibo.txt
 https://4key.cn/FP
@@ -67,7 +63,6 @@ https://gitee.com/feicater/01/raw/master/1012.txt
 https://gitee.com/sheep-in-a-water-bottle/zb/raw/master/zb.txt
 https://4key.cn/FP
 https://gitee.com/xiaoqiapi/xiaoqi-network/raw/master/zhibo.txt
-https://ds65.tv1288.xyz
 https://php.ufozsq.ccwu.cc/stv.php
 http://migu_video.ufozsq.ccwu.cc/migu123456
 http://iptv-4gtv.ufozsq.ccwu.cc/channel?type=txt&token=c6pQgIJbVgT6nTEFajTJB6QWFQXqCq9jay2zYLDbC2J8pPMIScWsz1Ac9q1pqLrI
@@ -83,4 +78,5 @@ https://gongdian.top/tv/develop202
 https://gongdian.top/tv/webvideo.txt
 https://gitee.com/mytv-android/mymigu/raw/main/migu.m3u
 http://rihou.cc:555/gggg.nzk
-https://raw.githubusercontent.com/XiaoZhang5656/xiaozhang-5656.github.io/main/iptv-live.txt
+https://gh-proxy.org/https://raw.githubusercontent.com/XiaoZhang5656/xiaozhang-5656.github.io/main/iptv-live.txt
+https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u
