@@ -2,7 +2,9 @@ import os
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from logging import INFO
+from threading import Lock
 from time import time
+import sys
 
 from tqdm.asyncio import tqdm_asyncio
 
@@ -18,17 +20,15 @@ from utils.tools import (
     get_name_value,
     get_logger, join_url,
     github_blob_to_raw,
-    save_url_content
+    save_url_content, close_logger_handlers,
+    disable_urls_in_file,
 )
 
 
 async def get_channels_by_subscribe_urls(
         urls,
         names=None,
-        retry=True,
-        error_print=True,
         whitelist=None,
-        pbar_desc=t("pbar.getting_name").format(name=t("name.subscribe")),
         callback=None,
 ):
     """
@@ -42,9 +42,10 @@ async def get_channels_by_subscribe_urls(
         def _map_entry(e):
             if isinstance(e, dict):
                 e = e.copy()
+                e.setdefault('source_url', e.get('url'))
                 e['url'] = _map_raw(e.get('url'))
                 return e
-            return _map_raw(e)
+            return {'url': _map_raw(e), 'source_url': e}
 
         urls = [_map_entry(u) for u in urls]
         whitelist = [_map_raw(u) for u in whitelist] if whitelist else None
@@ -60,7 +61,11 @@ async def get_channels_by_subscribe_urls(
     subscribe_urls_len = len(urls)
     pbar = tqdm_asyncio(
         total=subscribe_urls_len,
-        desc=pbar_desc,
+        desc=t("pbar.getting_name").format(name=t("name.subscribe")),
+        file=sys.stdout,
+        mininterval=0,
+        miniters=1,
+        dynamic_ncols=False,
     )
     start_time = time()
     mode_name = t("name.subscribe")
@@ -69,72 +74,93 @@ async def get_channels_by_subscribe_urls(
             t("pbar.getting_name").format(name=mode_name),
             0,
         )
-    logger = get_logger(constants.nomatch_log_path, level=INFO, init=True)
+    logger = get_logger(constants.unmatch_log_path, level=INFO, init=True)
+    request_timeout = config.request_timeout
+    open_headers = config.open_headers
+    open_unmatch_category = config.open_unmatch_category
+    open_auto_disable_source = config.open_auto_disable_source
+    disabled_urls = set()
+    disabled_lock = Lock()
+
+    def _mark_disabled(source_url: str, reason: str):
+        if not open_auto_disable_source or not source_url:
+            return
+        with disabled_lock:
+            disabled_urls.add(source_url)
+        print(t("msg.auto_disable_source").format(name=mode_name, url=source_url, reason=reason), flush=True)
 
     def process_subscribe_channels(subscribe_info: str | dict) -> defaultdict:
         subscribe_url = subscribe_info.get('url') if isinstance(subscribe_info, dict) else subscribe_info
+        source_url = subscribe_info.get('source_url', subscribe_url) if isinstance(subscribe_info,
+                                                                                   dict) else subscribe_url
         headers = subscribe_info.get('headers') if isinstance(subscribe_info, dict) else None
         channels = defaultdict(list)
         in_whitelist = whitelist and (subscribe_url in whitelist)
+        disable_reason = None
         try:
             response = None
             try:
-                if retry:
-                    response = retry_func(lambda: get_soup_requests(subscribe_url, timeout=config.request_timeout,
-                                                                    headers_override=headers), name=subscribe_url)
-                else:
-                    response = get_soup_requests(subscribe_url, timeout=config.request_timeout,
-                                                 headers_override=headers)
+                response = retry_func(lambda: get_soup_requests(subscribe_url, timeout=request_timeout,
+                                                                headers_override=headers), name=subscribe_url)
             except Exception as e:
-                print(f"{subscribe_url}: {e}")
+                print(e, flush=True)
+                disable_reason = t("msg.auto_disable_request_failed")
             if response:
                 if hasattr(response, 'text'):
                     response.encoding = "utf-8"
                     content = response.text
                 else:
                     content = str(response)
+                if not content:
+                    disable_reason = t("msg.auto_disable_empty_content")
                 try:
                     save_url_content('subscribe', subscribe_url, content)
                 except Exception:
                     pass
-                m3u_type = True if "#EXTM3U" in content else False
-                data = get_name_value(
-                    content,
-                    pattern=(
-                        constants.multiline_m3u_pattern
-                        if m3u_type
-                        else constants.multiline_txt_pattern
-                    ),
-                    open_headers=config.open_headers if m3u_type else False
-                )
-                for item in data:
-                    data_name = item.get("name", "").strip()
-                    url = item.get("value", "").strip()
-                    if data_name and url:
-                        name = format_channel_name(data_name)
-                        if names and name not in names:
-                            logger.info(f"{data_name},{url}")
-                            continue
-                        url_partition = url.partition("$")
-                        url = url_partition[0]
-                        info = url_partition[2]
-                        value = {
-                            "url": url,
-                            "headers": item.get("headers", None),
-                            "extra_info": info
-                        }
-                        if in_whitelist:
-                            value["origin"] = "whitelist"
-                        if name in channels:
-                            if value not in channels[name]:
-                                channels[name].append(value)
-                        else:
-                            channels[name] = [value]
+                if content:
+                    m3u_type = True if "#EXTM3U" in content else False
+                    data = get_name_value(
+                        content,
+                        pattern=(
+                            constants.multiline_m3u_pattern
+                            if m3u_type
+                            else constants.multiline_txt_pattern
+                        ),
+                        open_headers=open_headers if m3u_type else False
+                    )
+                    for item in data:
+                        data_name = item.get("name", "").strip()
+                        url = item.get("value", "").strip()
+                        if data_name and url:
+                            name = format_channel_name(data_name)
+                            if names and name not in names:
+                                logger.info(f"{data_name},{url}")
+                                if not open_unmatch_category:
+                                    continue
+                            url_partition = url.partition("$")
+                            url = url_partition[0]
+                            info = url_partition[2]
+                            value = {
+                                "url": url,
+                                "headers": item.get("headers", None),
+                                "extra_info": info
+                            }
+                            if in_whitelist:
+                                value["origin"] = "whitelist"
+                            if name in channels:
+                                if value not in channels[name]:
+                                    channels[name].append(value)
+                            else:
+                                channels[name] = [value]
+                if not channels and not disable_reason:
+                    disable_reason = t("msg.auto_disable_no_match")
         except Exception as e:
-            if error_print:
-                print(f"Error on {subscribe_url}: {e}")
+            print(t("msg.error_name_info").format(name=subscribe_url, info=e), flush=True)
+            if not disable_reason:
+                disable_reason = t("msg.auto_disable_request_failed")
         finally:
-            logger.handlers.clear()
+            if disable_reason:
+                _mark_disabled(source_url, disable_reason)
             pbar.update()
             if callback:
                 callback(
@@ -154,5 +180,14 @@ async def get_channels_by_subscribe_urls(
         ]
         for future in futures:
             subscribe_results = merge_objects(subscribe_results, future.result())
-    pbar.close()
-    return subscribe_results
+        pbar.close()
+        active_count = len(urls)
+        disabled_count = 0
+        if disabled_urls:
+            counts = disable_urls_in_file(constants.subscribe_path, disabled_urls)
+            active_count = counts["active"]
+            disabled_count = counts["disabled"]
+        print(t("msg.auto_disable_source_done").format(name=mode_name, active_count=active_count,
+                                                       disabled_count=disabled_count), flush=True)
+        close_logger_handlers(logger)
+        return subscribe_results
