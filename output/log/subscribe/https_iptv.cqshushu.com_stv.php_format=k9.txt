@@ -35,6 +35,8 @@ https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=34622605
 https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=322d3cd3
 #EXTINF:-1 tvg-id="CCTV-5+ 体育赛事" tvg-name="CCTV-5+ 体育赛事" group-title="央视卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV5+.png",CCTV-5+ 体育赛事
 https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=nef8dac1
+#EXTINF:-1 tvg-id="重温经典" tvg-name="重温经典" group-title="央视卫视" tvg-logo="https://example.com/icon.png",重温经典
+https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=1e1c6a0d
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" group-title="央视卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/湖南卫视.png",湖南卫视
 https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=5a53e58d
 #EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" group-title="央视卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/浙江卫视.png",浙江卫视
@@ -89,6 +91,8 @@ https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=n7549189d
 https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=n75ab7db0
 #EXTINF:-1 tvg-id="无线新闻" tvg-name="无线新闻" group-title="香港" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/无线新闻.png",无线新闻
 https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=n3fad9608
+#EXTINF:-1 tvg-id="now新闻" tvg-name="now新闻" group-title="香港" tvg-logo="https://example.com/icon.png",now新闻
+https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=3cbff83e
 #EXTINF:-1 tvg-id="TVBPLUS" tvg-name="TVBPLUS" group-title="香港" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/TVBPLUS.png",TVBPLUS
 https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=6429ae4c
 #EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" group-title="香港" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/VIUTV.png",ViuTV
