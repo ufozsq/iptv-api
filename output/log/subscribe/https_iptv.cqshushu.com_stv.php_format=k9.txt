@@ -137,8 +137,6 @@ https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=5824ef5e
 https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=n3ee59a96
 #EXTINF:-1 tvg-id="寰宇新聞台" tvg-name="寰宇新聞台" group-title="台灣4G" tvg-logo="https://example.com/icon.png",寰宇新聞台
 https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=n7be4ad71
-#EXTINF:-1 tvg-id="新唐人亞太台" tvg-name="新唐人亞太台" group-title="台灣4G" tvg-logo="https://example.com/icon.png",新唐人亞太台
-https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=3c4b5186
 #EXTINF:-1 tvg-id="東森新聞台" tvg-name="東森新聞台" group-title="台灣4G" tvg-logo="https://example.com/icon.png",東森新聞台
 https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=2c4f5ac9
 #EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" group-title="台灣4G" tvg-logo="https://example.com/icon.png",TVBS新聞
