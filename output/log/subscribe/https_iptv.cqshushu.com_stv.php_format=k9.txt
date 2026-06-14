@@ -67,6 +67,8 @@ https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=684d0497
 https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=n6e47401d
 #EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" group-title="广东" tvg-logo="https://example.com/icon.png",广东体育
 https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=n2afd3461
+#EXTINF:-1 tvg-id="广东体育广电" tvg-name="广东体育广电" group-title="广东" tvg-logo="https://example.com/icon.png",广东体育广电
+https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=7df79575
 #EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" group-title="广东" tvg-logo="https://example.com/icon.png",广东影视
 https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=n2afb37ab
 #EXTINF:-1 tvg-id="汕头综合" tvg-name="汕头综合" group-title="广东" tvg-logo="https://example.com/icon.png",汕头综合
@@ -145,3 +147,7 @@ https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=7713a03d
 https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=n1794885d
 #EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" group-title="台灣4G" tvg-logo="https://example.com/icon.png",TVBS
 https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=n5bc98b1
+#EXTINF:-1 tvg-id="黄色仓库" tvg-name="黄色仓库" group-title="成人限定" tvg-logo="https://example.com/icon.png",黄色仓库
+https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=205538ef
+#EXTINF:-1 tvg-id="麻豆视频" tvg-name="麻豆视频" group-title="成人限定" tvg-logo="https://example.com/icon.png",麻豆视频
+https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=207d63d7
