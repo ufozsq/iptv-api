@@ -101,6 +101,10 @@ https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=6429ae4c
 https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=78204936
 #EXTINF:-1 tvg-id="ViuTV 6" tvg-name="ViuTV 6" group-title="香港" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/viutv6.png",ViuTV 6
 https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=necd2834
+#EXTINF:-1 tvg-id="HOY78" tvg-name="HOY78" group-title="香港" tvg-logo="https://example.com/icon.png",HOY78
+https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=3e217d10
+#EXTINF:-1 tvg-id="HOY77" tvg-name="HOY77" group-title="香港" tvg-logo="https://example.com/icon.png",HOY77
+https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=3e217d0f
 #EXTINF:-1 tvg-id="中天新闻" tvg-name="中天新闻" group-title="台湾" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/中天新闻.png",中天新闻
 https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=41d8a09d
 #EXTINF:-1 tvg-id="寰宇新闻台" tvg-name="寰宇新闻台" group-title="台湾" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/寰宇新闻台湾.png",寰宇新闻台
@@ -147,7 +151,3 @@ https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=7713a03d
 https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=n1794885d
 #EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" group-title="台灣4G" tvg-logo="https://example.com/icon.png",TVBS
 https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=n5bc98b1
-#EXTINF:-1 tvg-id="黄色仓库" tvg-name="黄色仓库" group-title="成人限定" tvg-logo="https://example.com/icon.png",黄色仓库
-https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=205538ef
-#EXTINF:-1 tvg-id="麻豆视频" tvg-name="麻豆视频" group-title="成人限定" tvg-logo="https://example.com/icon.png",麻豆视频
-https://iptv.cqshushu.com/k-web/ku9/js/stv.js?id=207d63d7

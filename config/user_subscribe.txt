@@ -13,6 +13,8 @@
 # https://gongdian.top/tv/guovin
 # https://gongdian.top/tv/develop202
 # https://gitee.com/mytv-android/mymigu/raw/main/migu.m3u
+# https://gitee.com/feicater/01/raw/master/1012.txt
+# https://52xiaobai.cn/ceshi/zb.php
 https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/cn.m3u
 https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
@@ -33,9 +35,6 @@ https://gongdian.top/tv/webvideo.txt
 http://rihou.cc:555/gggg.nzk
 https://gh-proxy.org/https://raw.githubusercontent.com/XiaoZhang5656/xiaozhang-5656.github.io/main/iptv-live.txt
 https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u
-
-# https://gitee.com/feicater/01/raw/master/1012.txt
-# https://52xiaobai.cn/ceshi/zb.php
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
@@ -54,7 +53,8 @@ https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/J
 # https://gongdian.top/tv/guovin
 # https://gongdian.top/tv/develop202
 # https://gitee.com/mytv-android/mymigu/raw/main/migu.m3u
-http://iptv-spider.ufozsq.ccwu.cc/sub?IPTV=txt
+# https://gitee.com/feicater/01/raw/master/1012.txt
+# https://52xiaobai.cn/ceshi/zb.php
 https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/cn.m3u
 https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
@@ -76,5 +76,4 @@ http://rihou.cc:555/gggg.nzk
 https://gh-proxy.org/https://raw.githubusercontent.com/XiaoZhang5656/xiaozhang-5656.github.io/main/iptv-live.txt
 https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u
 
-# https://gitee.com/feicater/01/raw/master/1012.txt
-# https://52xiaobai.cn/ceshi/zb.php
+# http://iptv-spider.ufozsq.ccwu.cc/sub?IPTV=txt
