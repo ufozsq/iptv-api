@@ -23,10 +23,11 @@
 
 ## 工作流部署
 
-使用 GitHub Actions 部署并手动执行更新。
+使用 GitHub Actions 手动生成结果，通过 Fork 仓库自己的 GitHub Pages 提供播放器订阅，并同步保留固定 Release 作为下载与备用入口。
 
 > [!IMPORTANT]
-> GitHub Actions 资源有限，工作流更新只能手动触发。如果需要频繁更新或定时执行，请使用其他方式部署。
+> GitHub Actions 资源有限，工作流只能手动触发。生成结果通过 Pages Artifact 和 `playlist-latest` 预发布版发布，不会提交到 Git，也不会创建 `gh-pages` 分支。
+> 如果需要频繁更新或定时执行，请使用 Docker、命令行、GUI 或外部对象存储。
 
 ### 进入IPTV-API项目
 
@@ -43,6 +44,22 @@
 
 ![Fork详情](./images/fork-detail.png 'Fork详情')
 
+### 启用 GitHub Pages
+
+每个 Fork 都需要单独启用 Pages，该设置不会从上游仓库自动继承：
+
+1. 进入您 Fork 仓库的 `Settings`。
+2. 在左侧选择 `Pages`。
+3. 在 `Build and deployment` 中，将 `Source` 设置为 `GitHub Actions`。
+
+不需要创建 `gh-pages` 分支，也不要将 `output/` 提交到任何分支。工作流会把临时 Pages Artifact 直接部署到：
+
+```text
+https://您的GitHub用户名.github.io/仓库名/
+```
+
+如果没有先启用 Pages，工作流会在 `Configure GitHub Pages` 步骤失败。
+
 ### 更新源代码
 
 由于本项目将持续迭代优化，如果您想获取最新的更新内容，可进行如下操作
@@ -50,7 +67,7 @@
 > [!WARNING]
 > 如果您的目的是更新自己 Fork 的代码，请不要点击 `Contribute` 或 `Open pull request` 创建 PR。
 > 请进入您自己的仓库主页，使用 `Sync fork` → `Update branch`。
-> 如果出现同步冲突，请按照下方说明选择 `Discard commits`。
+> 如果出现同步冲突，请先备份 `user_*.ini`、自定义模板与数据源，再按照下方说明选择 `Discard commits`。
 > 只有想向主仓库贡献代码时，才需要创建 Pull Request。
 
 #### 1. Watch
@@ -112,9 +129,8 @@
 
 1. 创建文件
 2. 配置文件命名为`user_config.ini`
-3. 粘贴默认配置 （创建`user_config.ini`可以只输入想要修改的配置项即可，无需全部复制 config.ini，注意配置文件上方的
-   `[Settings]`必须保留，否则下方的自定义配置不生效）
-4. 修改模板和结果文件配置以及CDN代理加速（推荐）：
+3. 粘贴默认配置（创建`user_config.ini`时，仅填写想要修改的配置项即可，无需全部复制`config.ini`）
+4. 修改模板和结果文件配置以及 CDN 代理加速（可选）：
     - source_file = config/user_demo.txt
     - final_file = output/user_result.txt
     - cdn_url = （前往`Govin`公众号回复`cdn`获取）
@@ -123,6 +139,12 @@
 ![创建user_config.ini](./images/edit-user-config.png '创建user_config.ini')
 ![编辑final_file配置](./images/edit-user-final-file.png '编辑source_file配置')
 ![编辑source_file配置](./images/edit-user-source-file.png '编辑source_file配置')
+
+> [!IMPORTANT]
+> `user_config.ini` 顶部的 `[Settings]` 必须保留，否则下方的自定义配置不会生效。
+
+> [!NOTE]
+> 工作流会使用第一个 `cdn_url` 生成 Pages 加速订阅地址。该 CDN 必须支持将完整的 `https://用户名.github.io/仓库名/...` URL 作为代理目标；如果未配置或不支持，请使用工作流 Summary 中的 Pages 直连地址。
 
 按照您的需要适当调整配置，以下是默认配置说明：
 [配置参数](./config.md)
@@ -136,19 +158,22 @@
 
 #### 添加数据源与更多
 
-- 订阅源（`config/subscribe.txt`）
+**订阅源（`config/subscribe.txt`）**
 
-  由于没有提供默认订阅地址，所以您需要自行添加，否则更新结果可能为空。支持txt和m3u地址作为订阅，程序将依次读取其中的频道接口数据。
-  ![订阅源](./images/subscribe.png '订阅源')
+> [!IMPORTANT]
+> 项目不提供默认订阅地址，请自行添加；否则更新结果可能为空。
 
-  如果某个订阅源需要特定的 `User-Agent` 才能访问，可在订阅地址后追加 `UA=值` 指定（包含空格时用引号包裹），例如：
+支持 txt 和 m3u 地址作为订阅，程序将依次读取其中的频道接口数据。
+![订阅源](./images/subscribe.png '订阅源')
 
-  ```text
-  https://example.com/sub.m3u UA=okHttp/Mod-1.5.0.0
-  https://example.com/sub2.m3u UA="Mozilla/5.0 xxx"
-  ```
+如果某个订阅源需要特定的 `User-Agent` 才能访问，可在订阅地址后追加 `UA=值` 指定（包含空格时用引号包裹），例如：
 
-  该 `UA` 会同时用于：拉取该订阅内容、对该订阅源下各接口测速、以及写入 `.m3u` 结果（供播放器使用），无需开启 `open_headers`。若希望对所有接口统一指定一个 UA（避免逐条添加），可在配置中设置全局 `user_agent`。优先级：接口自带 UA（m3u 内含 `#EXTVLCOPT`）> 订阅地址 UA > 全局 `user_agent` > 内置默认 UA。注意：请求头只能写入 `.m3u` 结果，`.txt` 格式无法携带 UA。
+```text
+https://example.com/sub.m3u UA=okHttp/Mod-1.5.0.0
+https://example.com/sub2.m3u UA="Mozilla/5.0 xxx"
+```
+
+该 `UA` 会同时用于：拉取该订阅内容、对该订阅源下各接口测速、以及写入 `.m3u` 结果（供播放器使用），无需开启 `open_headers`。若希望对所有接口统一指定一个 UA（避免逐条添加），可在配置中设置全局 `user_agent`。优先级：接口自带 UA（m3u 内含 `#EXTVLCOPT`）> 订阅地址 UA > 全局 `user_agent` > 内置默认 UA。注意：请求头只能写入 `.m3u` 结果，`.txt` 格式无法携带 UA。
 
 
 - 本地源（`config/local.txt`）
@@ -168,7 +193,9 @@
 
 - 频道别名（`config/alias.txt`）
 
-  频道名称的别名名单，用于获取接口时将多种名称映射为一个名称的结果，可以提升获取量与准确率，格式：模板频道名称,别名1,别名2,别名3
+  频道名称的别名名单，用于获取接口时将多种名称映射为一个名称的结果，可以提升获取量与准确率，格式：模板频道名称,别名1,别名2,别名3。
+
+  程序会自动归一化简繁体、大小写和常见分隔符，并依次使用精确别名和受限正则匹配；通常无需因来源名称写法不同而修改模板。不同实际频道不会合并，存在歧义的别名会被排除。新增正则请使用 `re:` 前缀，并确保能区分同系列频道（例如 CCTV-5 与 CCTV-5+）。
 
 
 - 黑名单（`config/blacklist.txt`）
@@ -185,7 +212,7 @@
 
 ### 运行更新
 
-如果您的模板和配置修改没有问题的话，这时就可以配置`Actions`来实现自动更新
+如果您的模板和配置修改没有问题，可以通过 `Actions` 手动生成并发布结果。
 
 #### 1. 进入 Actions：
 
@@ -197,13 +224,13 @@
 由于 Fork 的仓库 Actions 工作流是默认关闭的，需要您手动确认开启，点击红框中的按钮确认开启
 
 ![Actions工作流开启成功](./images/actions-home.png 'Actions工作流开启成功')
-开启成功后，可以看到目前是没有任何工作流在运行的，别急，下面开始运行您第一个更新工作流
+开启成功后，可以看到目前没有工作流在运行，下面开始第一次手动生成。
 
 #### 3. 运行更新工作流：
 
-##### （1）启用update schedule：
+##### （1）启用手动生成工作流：
 
-1. 点击`Workflows`分类下的`update schedule`
+1. 点击 `Workflows` 分类下的 `Generate playlist manually`
 2. 由于 Fork 的仓库工作流是默认关闭的，点击`Enable workflow`按钮确认开启
 
 ![开启Workflows更新](./images/workflows-btn.png '开启Workflows更新')
@@ -225,8 +252,7 @@
 ![Workflow运行中](./images/workflow-running.png 'Workflow运行中')
 
 > [!NOTE]\
-> 由于运行时间取决于您的模板频道数量以及页数等配置，也很大程度取决于当前网络状况，请耐心等待，默认模板与配置一般需要15
-> 分钟左右。
+> 由于运行时间取决于模板频道数量、页数配置与网络状况，请耐心等待。测速可能需要 30 分钟至 1 小时；它在最长 5 小时的生成 job 中执行。Pages 的 10 分钟部署限制只作用于结果生成完成后的独立部署 job，不包含测速时间。
 
 ##### （4）Workflow 取消运行：
 
@@ -239,11 +265,27 @@
 
 ![Workflow执行成功](./images/workflow-success.png 'Workflow执行成功')
 
-此时您可以访问文件链接，查看最新结果有没有同步即可：
-https://raw.githubusercontent.com/您的github用户名/仓库名称（对应上述Fork创建时的iptv-api）/master/output/user_result.txt
+此时可以在工作流页面的 Summary 查看 CDN 加速、Pages 直连和 Release 备用链接。播放器优先使用 Pages 地址：
 
-代理加速地址（推荐）：
-{cdn_url}/https://raw.githubusercontent.com/您的github用户名/仓库名称（对应上述Fork创建时的iptv-api）/master/output/user_result.txt
+```text
+https://您的GitHub用户名.github.io/仓库名/result.m3u
+https://您的GitHub用户名.github.io/仓库名/result.txt
+https://您的GitHub用户名.github.io/仓库名/epg.gz
+```
+
+如果配置了支持 `github.io` 的 CDN，推荐使用 Summary 中生成的加速地址，其格式为：
+
+```text
+https://CDN加速地址/https://您的GitHub用户名.github.io/仓库名/result.m3u
+```
+
+Pages 访问异常时可以切换 CDN；CDN 异常时可以切回 Pages 直连。Release 下载地址仍会同步更新，但由于存在重定向和下载响应头，仅建议作为下载或备用入口：
+
+```text
+https://github.com/您的GitHub用户名/仓库名/releases/download/playlist-latest/result.m3u
+```
+
+`result.txt` 始终发布；`result.m3u` 和 `epg.gz` 仅在对应功能开启且成功生成时存在。M3U 内的 EPG 地址会优先使用已配置的 CDN Pages 地址，否则使用 Pages 直连。
 
 ![用户名与仓库名称](./images/rep-info.png '用户名与仓库名称')
 
@@ -251,7 +293,19 @@ https://raw.githubusercontent.com/您的github用户名/仓库名称（对应上
 等播放器配置栏中即可使用~
 
 > [!NOTE]\
-> 如果您修改了模板或配置文件想立刻执行更新，可手动触发（2）中的`Run workflow`即可。
+> 1. 如果您修改了模板或配置文件，可再次手动触发 `Run workflow`，Pages、CDN 和 Release 固定地址保持不变。
+> 2. `open_history` 在 Actions 中仅尝试从短期缓存恢复，缓存失效时会执行无历史的完整生成。
+> 3. `open_auto_disable_source` 对配置文件的修改不会提交回仓库；需要持久保存时请使用其他部署方式。
+> 4. Pages 使用临时 Artifact 部署，不会向 Git 写入生成结果；请勿自行改为提交 `gh-pages` 分支。
+
+### 从旧工作流迁移
+
+1. 备份 Fork 中的 `config/user_config.ini`、`user_*.txt`、自定义模板与数据源。
+2. 在 Actions 中禁用含 `schedule` 的旧工作流，不要再让它提交 `output/`。
+3. 通过 `Sync fork` → `Update branch` 同步新版；若必须使用 `Discard commits`，请先完成第 1 步。
+4. 在 `Settings → Pages` 中将发布源设置为 `GitHub Actions`。
+5. 手动运行 `Generate playlist manually`，确认 Pages 部署和 `playlist-latest` 预发布版均已生成。
+6. 将播放器中的旧 raw 或 Release 链接替换为 Summary 中的 CDN 加速地址或 Pages 直连。旧 raw 链接只保留最后一次结果，不再更新。
 
 ## 命令行
 
@@ -316,9 +370,18 @@ pipenv run ui
 pipenv run ui_build
 ```
 
-配置保存到 `config/user_config.ini`，运行结果、频道快照、任务历史与日志保存在 `output/`。打包应用首次启动时，这两个目录位于系统应用数据目录。启用分辨率检测前请安装 FFmpeg。Windows 包内可附带 nginx-rtmp；macOS 需要安装带 RTMP 模块的 nginx，桌面端会自动生成独立配置并启动，也可通过 `IPTV_API_NGINX_PATH` 和 `IPTV_API_NGINX_RTMP_MODULE` 指定路径。
+配置保存到 `config/user_config.ini`，运行结果、频道快照、任务历史与日志保存在 `output/`。Windows 打包应用默认会将这两个目录创建在可执行文件所在目录，方便备份、迁移和直接访问；自动更新会保留其中的用户数据。若应用安装目录不可写，才会回退到系统应用数据目录。macOS 保持使用系统应用数据目录。
 
-旧版 Tkinter 界面已弃用，仅为兼容现有用户而临时保留，并将在后续版本中移除。该界面不再维护、修复问题或新增功能；过渡期间仍可通过 `pipenv run legacy_ui` 启动，并通过 `pipenv run legacy_ui_build` 打包。
+可在桌面端的“设置”页面点击“数据目录”选择位置，并重启应用使其生效；“恢复默认目录”可撤销此选择。如需由部署脚本指定位置，可在启动时指定 `--data-dir`，或设置 `IPTV_API_DATA_DIR` 环境变量。命令行参数优先级更高：
+
+```shell
+IPTV-API-GUI.exe --data-dir "D:\\IPTV-API 数据"
+```
+
+启用分辨率检测前请安装 FFmpeg。Windows 包内可附带 nginx-rtmp；macOS 需要安装带 RTMP 模块的 nginx，桌面端会自动生成独立配置并启动，也可通过 `IPTV_API_NGINX_PATH` 和 `IPTV_API_NGINX_RTMP_MODULE` 指定路径。
+
+> [!WARNING]
+> 旧版 Tkinter 界面已弃用，仅为兼容现有用户而临时保留，并将在后续版本中移除。该界面不再维护、修复问题或新增功能；过渡期间仍可通过 `pipenv run legacy_ui` 启动，并通过 `pipenv run legacy_ui_build` 打包。
 
 ## Docker
 
@@ -338,7 +401,8 @@ docker compose up -d
 docker pull guovern/iptv-api:latest
 ```
 
-🚀 代理加速（若拉取失败可以使用该命令，但有可能拉取的是旧版本）：
+> [!CAUTION]
+> 若官方镜像拉取失败，可使用以下代理加速地址；它可能提供旧版本镜像。
 
 ```bash
 docker pull docker.1ms.run/guovern/iptv-api:latest
@@ -359,6 +423,7 @@ docker run -d -p 80:8080 guovern/iptv-api
 | PUBLIC_PORT     | 兼容配置：`PUBLIC_URL` 留空时使用的宿主机映射端口                    | 80        |
 | NGINX_HTTP_PORT | 高级兼容配置：容器内部 HTTP 端口，通常保持默认                        | 8080      |
 
+> [!NOTE]
 > 当宿主机/Docker 已启用 IPv6 时，容器会自动同时监听 IPv6 地址，无需额外配置；纯 IPv4 或禁用 IPv6 的环境则自动跳过。
 
 如果需要修改环境变量，在上述运行命令后添加以下参数：
@@ -404,11 +469,10 @@ docker run -d -p 80:8080 guovern/iptv-api
 
 **RTMP 推流：**
 
-> [!NOTE]
-> 1. 如果是服务器部署，建议通过 `PUBLIC_URL` 配置完整公网地址；旧版 `PUBLIC_DOMAIN` 与 `PUBLIC_PORT` 仍兼容
-> 2. 开启推流后，默认会将获取到的接口（如订阅源）进行推流；请仅对你有明确授权、可合法分发或仅用于内部测试的内容启用该功能
-> 3. 如果需要对本地视频源进行推流，可在`config`目录下新建`hls`文件夹，将以`频道名称命名`的视频文件放入其中，程序会自动推流到对应的频道中
-> 4. 在中国大陆使用时，请特别确认内容授权、版权、网络视听与广播电视等相关合规要求；不要将本项目用于传播、转发或公开分发未经授权的直播源/节目源
+> [!WARNING]
+> 开启推流后会默认推流获取到的接口（如订阅源）。请仅对你有明确授权、可合法分发或仅用于内部测试的内容启用该功能。在中国大陆使用时，请特别确认内容授权、版权、网络视听与广播电视等相关合规要求；不要将本项目用于传播、转发或公开分发未经授权的直播源/节目源。
+
+如果是服务器部署，建议通过 `PUBLIC_URL` 配置完整公网地址；旧版 `PUBLIC_DOMAIN` 与 `PUBLIC_PORT` 仍兼容。若需推流本地视频源，可在 `config` 目录下新建 `hls` 文件夹，将以频道名称命名的视频文件放入其中，程序会自动推流到对应频道中。
 
 | 推流接口          | 描述           |
 |:--------------|:-------------|
@@ -425,8 +489,10 @@ docker run -d -p 80:8080 guovern/iptv-api
 
 ### 推流使用教程
 
-Docker 中启用推流很简单——只需做少量配置并将需要推流的频道或视频放到指定位置，程序会自动将这些源通过内置 RTMP/HTTP 推出为可播放的
-HLS 流。请仅用于你有明确授权的内容、个人自有内容或封闭环境的技术测试，不要用于未经授权的公开转播。
+Docker 中启用推流很简单——只需做少量配置并将需要推流的频道或视频放到指定位置，程序会自动将这些源通过内置 RTMP/HTTP 推出为可播放的 HLS 流。
+
+> [!WARNING]
+> 请仅用于你有明确授权的内容、个人自有内容或封闭环境的技术测试，不要用于未经授权的公开转播。
 
 下面以两种常见方式说明：订阅源推流（在线源）和本地视频推流（上传视频文件）。
 
@@ -459,6 +525,7 @@ services:
       PUBLIC_PORT: "${PORT:-80}" # 兼容旧配置，由 PORT 自动同步
       NGINX_HTTP_PORT: "8080" # 高级兼容项，通常不要修改
       CDN_URL: ""
+      # 仅用于获取订阅源和 EPG 数据，不用于媒体测速
       HTTP_PROXY: ""
 ```
 
